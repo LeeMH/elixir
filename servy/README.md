@@ -5,3 +5,6 @@
 
 ## [2. High-Level Transformation](/servy/docs/2.high_level_transformation.md)
 
+## [3. Pattern Matching](/servy/docs/3.pattern_matching.md)
+
+
