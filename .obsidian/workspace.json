@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/3.pattern_matching.md",
+                "file": "servy/docs/4.immutable_data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/3.pattern_matching.md",
+                "file": "servy/docs/4.immutable_data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/3.pattern_matching.md",
+                "file": "servy/docs/4.immutable_data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/3.pattern_matching.md"
+                "file": "servy/docs/4.immutable_data.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "f15849d9d89d0769",
   "lastOpenFiles": [
-    "servy/docs/2.high_level_transformation.md",
     "servy/docs/3.pattern_matching.md",
-    "servy/docs/2.pattern_matching.md",
+    "servy/docs/4.immutable_data.md",
     "servy/README.md",
+    "servy/docs/2.high_level_transformation.md",
+    "servy/docs/2.pattern_matching.md",
     "README.md",
     "servy/docs/1.create_mix_project.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
