@@ -3,7 +3,10 @@ defmodule Servy.Handler do
     # conv = parse(request)
     # conv = route(conv)
     # format_response(conv)
-    request |> parse |> route |> format_response
+    request
+    |> parse
+    |> route
+    |> format_response
   end
 
   def parse(request) do

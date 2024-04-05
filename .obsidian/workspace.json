@@ -148,6 +148,7 @@
   },
   "active": "f15849d9d89d0769",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/docs/1.create_mix_project.md",
     "servy/docs/2.high_level_transformation.md",
     "servy/README.md",
