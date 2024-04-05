@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/2.high_level_transformation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/2.high_level_transformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/2.high_level_transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md"
+                "file": "servy/docs/2.high_level_transformation.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "62e82e9185d8ea14",
+  "active": "f15849d9d89d0769",
   "lastOpenFiles": [
+    "servy/docs/1.create_mix_project.md",
+    "servy/docs/2.high_level_transformation.md",
+    "servy/README.md",
     "servy/lib/servy/handler.ex",
     "servy/lib/servy",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
@@ -158,9 +161,6 @@
     "servy/_build/dev/lib/servy/consolidated/Elixir.List.Chars.beam",
     "servy/_build/dev/lib/servy/consolidated",
     "servy/_build/dev/lib/servy/ebin/servy.app",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
-    "servy/README.md",
-    "servy/docs/1.create_mix_project.md",
     "servy/docs/1.create mix project.md",
     "servy/docs/1.create.md",
     "docs/1.create mix project.md",
