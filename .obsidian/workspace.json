@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89dea2a8296334ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/docs/6.advanced_pattern_matching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/README.md",
+                "file": "servy/docs/6.advanced_pattern_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/README.md",
+                "file": "servy/docs/6.advanced_pattern_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/README.md"
+                "file": "servy/docs/6.advanced_pattern_matching.md"
               }
             }
           }
@@ -159,12 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "769714b5ae61b9ca",
+  "active": "89dea2a8296334ce",
   "lastOpenFiles": [
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/docs/5.function_clause.md",
-    "servy/docs/4.immutable_data.md",
+    "servy/docs/6.advanced_pattern_matching.md",
     "servy/README.md",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
+    "servy/docs/4.immutable_data.md",
     "servy/docs/1.create_mix_project.md",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
