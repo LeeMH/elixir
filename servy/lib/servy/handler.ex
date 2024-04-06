@@ -20,11 +20,15 @@ defmodule Servy.Handler do
   end
 
   def route(conv) do
-    if conv.path == "/wildthings" do
-      %{ conv | resp_body: "Bears, Lions, Tigers"}
-    else
-      %{ conv | resp_body: "Teddy, Smokey, Paddington"}
-    end
+    route(conv, conv.path)
+  end
+
+  def route(conv, "/wildthings") do
+    %{ conv | resp_body: "Bears, Lions, Tigers"}
+  end
+
+  def route(conv, "/bears") do
+    %{ conv | resp_body: "Teddy, Smokey, Paddington"}
   end
 
   def format_response(conv) do
