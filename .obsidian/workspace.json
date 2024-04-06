@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/5.function_clause.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/5.function_clause.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md",
+                "file": "servy/docs/5.function_clause.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/1.create_mix_project.md"
+                "file": "servy/docs/5.function_clause.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "f15849d9d89d0769",
   "lastOpenFiles": [
+    "servy/docs/4.immutable_data.md",
+    "servy/docs/5.function_clause.md",
+    "servy/README.md",
+    "servy/docs/1.create_mix_project.md",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
@@ -158,14 +162,10 @@
     "servy/_build/dev/lib/servy/ebin/servy.app",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
-    "servy/_build/dev/lib/servy/ebin",
-    "servy/README.md",
     "README.md",
-    "servy/docs/4.immutable_data.md",
     "servy/docs/3.pattern_matching.md",
     "servy/docs/2.high_level_transformation.md",
     "servy/docs/2.pattern_matching.md",
-    "servy/docs/1.create_mix_project.md",
     "servy/docs/1.create mix project.md",
     "servy/docs/1.create.md",
     "docs/1.create mix project.md",
