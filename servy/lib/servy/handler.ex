@@ -20,14 +20,14 @@ defmodule Servy.Handler do
   end
 
   def route(conv) do
-    route(conv, conv.path)
+    route(conv, conv.method, conv.path)
   end
 
-  def route(conv, "/wildthings") do
+  def route(conv, "GET", "/wildthings") do
     %{ conv | resp_body: "Bears, Lions, Tigers"}
   end
 
-  def route(conv, "/bears") do
+  def route(conv, "GET", "/bears") do
     %{ conv | resp_body: "Teddy, Smokey, Paddington"}
   end
 
@@ -59,6 +59,19 @@ IO.puts response
 # 두번째 요청
 request = """
 GET /bears HTTP/1.1
+Host: example.com
+User-Agent: ExampleBrowser/1.0
+Accept: */*
+
+"""
+
+response = Servy.Handler.handle(request)
+
+IO.puts response
+
+# 세번째 요청
+request = """
+GET /bigfoot HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
