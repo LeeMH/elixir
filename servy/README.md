@@ -11,6 +11,9 @@
 
 ## [5. Function Clauses](/servy/docs/5.function_clause.md)
 
+## [6. Advanced Pattern Matching](/servy/docs/6.advanced_pattern_matching.md)
+
+
 
 
 
