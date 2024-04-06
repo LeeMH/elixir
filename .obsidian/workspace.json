@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "769714b5ae61b9ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/5.function_clause.md",
+                "file": "servy/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/5.function_clause.md",
+                "file": "servy/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/5.function_clause.md"
+                "file": "servy/README.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f15849d9d89d0769",
+  "active": "769714b5ae61b9ca",
   "lastOpenFiles": [
-    "servy/docs/4.immutable_data.md",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/docs/5.function_clause.md",
+    "servy/docs/4.immutable_data.md",
     "servy/README.md",
     "servy/docs/1.create_mix_project.md",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
@@ -160,7 +174,6 @@
     "servy/_build/dev/lib/servy/consolidated/Elixir.List.Chars.beam",
     "servy/_build/dev/lib/servy/consolidated",
     "servy/_build/dev/lib/servy/ebin/servy.app",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
     "README.md",
     "servy/docs/3.pattern_matching.md",
