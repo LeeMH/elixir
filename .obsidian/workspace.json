@@ -185,6 +185,7 @@
   },
   "active": "cf5e64a0c79dadca",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/README.md",
     "servy/docs/6.advanced_pattern_matching.md",
     "servy/docs/7.pattern_matching_maps.md.md",
@@ -194,7 +195,6 @@
     "servy/docs/3.pattern_matching.md",
     "servy/docs/2.high_level_transformation.md",
     "servy/docs/1.create_mix_project.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
