@@ -39,24 +39,20 @@ defmodule Servy.Handler do
     }
   end
 
-  def route(conv) do
-    route(conv, conv.method, conv.path)
-  end
-
-  def route(conv, "GET", "/wildthings") do
+  def route(%{method: "GET", path: "/wildthings"} = conv) do
     %{ conv | status: 200, resp_body: "Bears, Lions, Tigers"}
   end
 
-  def route(conv, "GET", "/bears") do
+  def route(%{method: "GET", path: "/bears"} = conv) do
     %{ conv | status: 200, resp_body: "Teddy, Smokey, Paddington"}
   end
 
-  def route(conv, "GET", "/bears/" <> id) do
+  def route(%{method: "GET", path: "/bears/" <> id} = conv) do
     %{ conv | status: 200, resp_body: "bear #{id}"}
   end
 
-  def route(conv, _method, path) do
-    %{ conv | status: 404, resp_body: "no #{path} here"}
+  def route(conv) do
+    %{ conv | status: 404, resp_body: "no #{conv.path} here"}
   end
 
   def format_response(conv) do
