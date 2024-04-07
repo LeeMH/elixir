@@ -13,7 +13,7 @@
 
 ## [6. Advanced Pattern Matching](/servy/docs/6.advanced_pattern_matching.md)
 
-## [7. Pattern Matching Maps](7.pattern_matching_maps.md.md)
+## [7. Pattern Matching Maps](7.pattern_matching_maps.md)
 
 
 
