@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/6.advanced_pattern_matching.md",
+                "file": "servy/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf5e64a0c79dadca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/docs/7.pattern_matching_maps.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/6.advanced_pattern_matching.md",
+                "file": "servy/docs/7.pattern_matching_maps.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/6.advanced_pattern_matching.md",
+                "file": "servy/docs/7.pattern_matching_maps.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/6.advanced_pattern_matching.md"
+                "file": "servy/docs/7.pattern_matching_maps.md.md"
               }
             }
           }
@@ -171,14 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89dea2a8296334ce",
+  "active": "62e82e9185d8ea14",
   "lastOpenFiles": [
-    "servy/docs/5.function_clause.md",
     "servy/docs/6.advanced_pattern_matching.md",
+    "servy/docs/5.function_clause.md",
+    "servy/docs/4.immutable_data.md",
+    "servy/docs/3.pattern_matching.md",
+    "servy/docs/2.high_level_transformation.md",
+    "servy/docs/1.create_mix_project.md",
+    "servy/docs/7.pattern_matching_maps.md.md",
     "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
-    "servy/docs/4.immutable_data.md",
-    "servy/docs/1.create_mix_project.md",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
@@ -189,8 +204,6 @@
     "servy/_build/dev/lib/servy/ebin/servy.app",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
     "README.md",
-    "servy/docs/3.pattern_matching.md",
-    "servy/docs/2.high_level_transformation.md",
     "servy/docs/2.pattern_matching.md",
     "servy/docs/1.create mix project.md",
     "servy/docs/1.create.md",
