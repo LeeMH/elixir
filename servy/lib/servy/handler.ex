@@ -1,3 +1,5 @@
+require Logger
+
 defmodule Servy.Handler do
   def handle(request) do
     request
@@ -6,11 +8,21 @@ defmodule Servy.Handler do
     |> log
     |> route
     |> track
+    |> emojify
     |> format_response
   end
 
+  def emojify(%{status: 200} = conv) do
+    emojies = String.duplicate("🎉", 5)
+    body = emojies <> "\n" <> conv.resp_body <> "\n" <> emojies
+
+    %{conv | resp_body: body}
+  end
+
+  def emojify(conv), do: conv
+
   def track(%{status: 404, path: path} = conv) do
-    IO.puts "Warning: #{path} is on then loose"
+    Logger.warning "Warning: #{path} is on then loose"
     conv
   end
 
@@ -18,6 +30,10 @@ defmodule Servy.Handler do
 
   def rewrite_path(%{path: "/wildlife"} = conv) do
     %{ conv | path: "/wildthings" }
+  end
+
+  def rewrite_path(%{path: "/bears?id" <> id} = conv) do
+    %{ conv | path: "/bears/#{id}" }
   end
 
   def rewrite_path(conv), do: conv
@@ -59,7 +75,7 @@ defmodule Servy.Handler do
     """
     HTTP/1.1 #{conv.status} #{status_reason(conv.status)}
     Content-Type: text/html
-    Content-Length: #{String.length(conv.resp_body)}
+    Content-Length: #{byte_size(conv.resp_body)}
 
     #{conv.resp_body}
     """
@@ -133,6 +149,20 @@ IO.puts response
 # 다섯번째 요청
 request = """
 GET /wildlife HTTP/1.1
+Host: example.com
+User-Agent: ExampleBrowser/1.0
+Accept: */*
+
+"""
+
+response = Servy.Handler.handle(request)
+
+IO.puts response
+
+
+# 여섯번째 요청
+request = """
+GET /bears?id=1 HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
