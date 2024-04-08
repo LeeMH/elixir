@@ -21,6 +21,9 @@
 
 ## [10. Organizing Code](/servy/docs/10.organizing_code.md)
 
+## [11. Modeling With Structs](/servy/docs/11.modeling_with_structs.md)
+
+
 
 
 
