@@ -148,6 +148,7 @@
   },
   "active": "f15849d9d89d0769",
   "lastOpenFiles": [
+    "servy/case - function clause 형태로 리팩토링",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/pages/about.html",
     "servy/pages",
@@ -168,7 +169,6 @@
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.String.Chars.beam",
     "servy/docs/1.create mix project.md",
     "servy/docs/1.create.md",
     "docs/1.create mix project.md",

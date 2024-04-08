@@ -68,20 +68,33 @@ defmodule Servy.Handler do
   end
 
   def route(%{method: "GET", path: "/about"} = conv) do
-    # 상대경로를 절대경로로 치환해줌.
-    file = Path.expand("../../pages", __DIR__)
+    Path.expand("../../pages", __DIR__)
     |> Path.join("about.html")
-
-    case File.read(file) do
-      {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
-      {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
-      {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
-    end
+    |> File.read
+    |> handle_file(conv)
   end
+
+  # def route(%{method: "GET", path: "/about"} = conv) do
+  #   # 상대경로를 절대경로로 치환해줌.
+  #   file = Path.expand("../../pages", __DIR__)
+  #   |> Path.join("about.html")
+
+  #   case File.read(file) do
+  #     {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
+  #     {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
+  #     {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
+  #   end
+  # end
 
   def route(conv) do
     %{ conv | status: 404, resp_body: "no #{conv.path} here"}
   end
+
+  def handle_file({:ok, contents}, conv), do: %{ conv | status: 200, resp_body: contents }
+
+  def handle_file({:ok, :enoent}, conv), do: %{ conv | status: 404, resp_body: "File not found!"}
+
+  def handle_file({:error, reason}, conv), do: %{ conv | status: 500, resp_body: "File error #{reason}"}
 
   def format_response(conv) do
     """
