@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/7.pattern_matching_maps.md",
+                "file": "servy/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0273ab92157287d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "685394658a32b523",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/docs/8.serving_files.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/7.pattern_matching_maps.md",
+                "file": "servy/docs/8.serving_files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/7.pattern_matching_maps.md",
+                "file": "servy/docs/8.serving_files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/7.pattern_matching_maps.md"
+                "file": "servy/docs/8.serving_files.md"
               }
             }
           }
@@ -146,8 +171,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f15849d9d89d0769",
+  "active": "685394658a32b523",
   "lastOpenFiles": [
+    "servy/docs/7.pattern_matching_maps.md",
+    "servy/docs/8.serving_files.md",
+    "servy/README.md",
+    "7.serving_files.md",
     "servy/case - function clause 형태로 리팩토링",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/pages/about.html",
@@ -155,11 +184,9 @@
     "servy/lib/pages",
     "servy/lib/about",
     "servy/docs/4.immutable_data.md",
-    "servy/docs/7.pattern_matching_maps.md",
     "servy/docs/6.advanced_pattern_matching.md",
     "servy/docs/5.function_clause.md",
     "servy/docs/3.pattern_matching.md",
-    "servy/README.md",
     "servy/docs/2.high_level_transformation.md",
     "servy/docs/2.pattern_matching.md",
     "README.md",
@@ -168,7 +195,6 @@
     "servy/lib/servy",
     "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
     "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
     "servy/docs/1.create mix project.md",
     "servy/docs/1.create.md",
     "docs/1.create mix project.md",

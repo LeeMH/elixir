@@ -92,7 +92,7 @@ defmodule Servy.Handler do
 
   def handle_file({:ok, contents}, conv), do: %{ conv | status: 200, resp_body: contents }
 
-  def handle_file({:ok, :enoent}, conv), do: %{ conv | status: 404, resp_body: "File not found!"}
+  def handle_file({:error, :enoent}, conv), do: %{ conv | status: 404, resp_body: "File not found!"}
 
   def handle_file({:error, reason}, conv), do: %{ conv | status: 500, resp_body: "File error #{reason}"}
 

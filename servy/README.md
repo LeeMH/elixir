@@ -13,7 +13,9 @@
 
 ## [6. Advanced Pattern Matching](/servy/docs/6.advanced_pattern_matching.md)
 
-## [7. Pattern Matching Maps](7.pattern_matching_maps.md)
+## [7. Pattern Matching Maps](/servy/docs/7.pattern_matching_maps.md)
+
+## [8. Serving Files](/servy/docs/8.serving_files.md)
 
 
 
