@@ -17,6 +17,9 @@
 
 ## [8. Serving Files](/servy/docs/8.serving_files.md)
 
+## [9. Module Attributes](/servy/docs/9.module_attribute.md)
+
+
 
 
 
