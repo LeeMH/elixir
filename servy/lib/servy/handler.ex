@@ -43,7 +43,7 @@ defmodule Servy.Handler do
 
   @pages_path Path.expand("../../pages", __DIR__)
 
-  import Servy.Plugins
+  import Servy.Plugins, only: [rewrite_path: 1, log: 1, track: 1]
 
   @doc """
   Transforms the request into a respond
@@ -54,7 +54,7 @@ defmodule Servy.Handler do
     |> rewrite_path
     |> log
     |> route
-    |> Servy.Plugins.track
+    |> track
     #|> emojify
     |> format_response
   end
