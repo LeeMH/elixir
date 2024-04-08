@@ -173,12 +173,12 @@
   },
   "active": "685394658a32b523",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/docs/7.pattern_matching_maps.md",
     "servy/docs/8.serving_files.md",
     "servy/README.md",
     "7.serving_files.md",
     "servy/case - function clause 형태로 리팩토링",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/pages/about.html",
     "servy/pages",
     "servy/lib/pages",
