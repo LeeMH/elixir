@@ -8,7 +8,7 @@ defmodule Servy.Handler do
     |> log
     |> route
     |> track
-    |> emojify
+    #|> emojify
     |> format_response
   end
 
@@ -65,6 +65,14 @@ defmodule Servy.Handler do
 
   def route(%{method: "GET", path: "/bears/" <> id} = conv) do
     %{ conv | status: 200, resp_body: "bear #{id}"}
+  end
+
+  def route(%{method: "GET", path: "/about"} = conv) do
+    case File.read("../../pages/about.html") do
+      {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
+      {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
+      {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
+    end
   end
 
   def route(conv) do
@@ -163,6 +171,19 @@ IO.puts response
 # 여섯번째 요청
 request = """
 GET /bears?id=1 HTTP/1.1
+Host: example.com
+User-Agent: ExampleBrowser/1.0
+Accept: */*
+
+"""
+
+response = Servy.Handler.handle(request)
+
+IO.puts response
+
+# 일곱번째 요청
+request = """
+GET /about HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
