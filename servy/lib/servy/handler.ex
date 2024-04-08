@@ -43,14 +43,16 @@ defmodule Servy.Handler do
 
   @pages_path Path.expand("../../pages", __DIR__)
 
+  import Servy.Plugins
+
   @doc """
   Transforms the request into a respond
   """
   def handle(request) do
     request
     |> parse
-    |> Servy.Plugins.rewrite_path
-    |> Servy.Plugins.log
+    |> rewrite_path
+    |> log
     |> route
     |> Servy.Plugins.track
     #|> emojify
