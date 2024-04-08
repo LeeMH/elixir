@@ -19,6 +19,8 @@
 
 ## [9. Module Attributes](/servy/docs/9.module_attribute.md)
 
+## [10. Organizing Code](/servy/docs/10.organizing_code.md)
+
 
 
 
