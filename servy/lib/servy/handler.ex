@@ -1,27 +1,6 @@
 require Logger
 
-defmodule Servy.Handler do
-
-  @moduledoc """
-  Handles HTTP requests
-  """
-
-  @pages_path Path.expand("../../pages", __DIR__)
-
-  @doc """
-  Transforms the request into a respond
-  """
-  def handle(request) do
-    request
-    |> parse
-    |> rewrite_path
-    |> log
-    |> route
-    |> track
-    #|> emojify
-    |> format_response
-  end
-
+defmodule Servy.Plugins do
   def emojify(%{status: 200} = conv) do
     emojies = String.duplicate("🎉", 5)
     body = emojies <> "\n" <> conv.resp_body <> "\n" <> emojies
@@ -52,6 +31,33 @@ defmodule Servy.Handler do
   def rewrite_path(conv), do: conv
 
   def log(conv), do: IO.inspect conv
+end
+
+
+
+defmodule Servy.Handler do
+
+  @moduledoc """
+  Handles HTTP requests
+  """
+
+  @pages_path Path.expand("../../pages", __DIR__)
+
+  @doc """
+  Transforms the request into a respond
+  """
+  def handle(request) do
+    request
+    |> parse
+    |> Servy.Plugins.rewrite_path
+    |> Servy.Plugins.log
+    |> route
+    |> Servy.Plugins.track
+    #|> emojify
+    |> format_response
+  end
+
+
 
   def parse(request) do
     [method, path, _] =

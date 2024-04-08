@@ -173,9 +173,10 @@
   },
   "active": "685394658a32b523",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Plugins.beam",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "attached/Pasted image 20240408124244.png",
     "attached/Pasted image 20240408124055.png",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/docs/8.serving_files.md",
     "servy/docs/9.module_attribute.md",
     "servy/README.md",
