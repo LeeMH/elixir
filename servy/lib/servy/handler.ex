@@ -1,6 +1,14 @@
 require Logger
 
 defmodule Servy.Handler do
+
+  @moduledoc """
+  Handles HTTP requests
+  """
+
+  @doc """
+  Transforms the request into a respond
+  """
   def handle(request) do
     request
     |> parse
@@ -21,6 +29,9 @@ defmodule Servy.Handler do
 
   def emojify(conv), do: conv
 
+  @doc """
+  Logs for 404 requests
+  """
   def track(%{status: 404, path: path} = conv) do
     Logger.warning "Warning: #{path} is on then loose"
     conv
