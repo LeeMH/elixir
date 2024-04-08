@@ -68,7 +68,11 @@ defmodule Servy.Handler do
   end
 
   def route(%{method: "GET", path: "/about"} = conv) do
-    case File.read("../../pages/about.html") do
+    # 상대경로를 절대경로로 치환해줌.
+    file = Path.expand("../../pages", __DIR__)
+    |> Path.join("about.html")
+
+    case File.read(file) do
       {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
       {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
       {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
