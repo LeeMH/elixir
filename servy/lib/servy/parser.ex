@@ -12,9 +12,16 @@ defmodule Servy.Parser do
     # http 요청 첫라인 파싱
     [method, path, _] = String.split(request_line, " ")
 
+    params = parse_params(params_string)
+
     %Conv{
       method: method,
-      path: path
+      path: path,
+      params: params
     }
+  end
+
+  def parse_params(params_string) do
+    params_string |> String.trim |> URI.decode_query
   end
 end
