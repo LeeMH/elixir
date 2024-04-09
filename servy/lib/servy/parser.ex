@@ -5,8 +5,11 @@ defmodule Servy.Parser do
   alias Servy.Conv
 
   def parse(request) do
+    [top, params_string] = request
+      |> String.split("\n\n")
+
     [method, path, _] =
-      request
+      top
       |> String.split("\n")
       |> List.first
       |> String.split(" ")
