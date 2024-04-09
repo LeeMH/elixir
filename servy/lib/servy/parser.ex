@@ -7,7 +7,7 @@ defmodule Servy.Parser do
   def parse(request) do
     [top, params_string] = String.split(request, "\n\n")
 
-    [request_line | header_lines] = String.split(top, "\n")
+    [request_line | _header_lines] = String.split(top, "\n")
 
     # http 요청 첫라인 파싱
     [method, path, _] = String.split(request_line, " ")
