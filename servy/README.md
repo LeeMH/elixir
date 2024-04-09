@@ -21,7 +21,10 @@
 
 ## [10. Organizing Code](/servy/docs/10.organizing_code.md)
 
-## [11. Matching Heads and Tails](/servy/docs/11.matching_heads_and_tails.md)
+## [11. Modeling With Structs](/servy/docs/11.modeling_with_structs.md)
+
+## [12. Matching Heads and Tails](/servy/docs/12.matching_heads_and_tails.md)
+
 
 
 
