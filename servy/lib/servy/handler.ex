@@ -5,6 +5,7 @@ defmodule Servy.Handler do
   """
 
   alias Servy.Conv
+  alias Servy.BearController
 
   @pages_path Path.expand("pages", File.cwd!)
 
@@ -32,15 +33,16 @@ defmodule Servy.Handler do
   end
 
   def route(%Conv{method: "GET", path: "/bears"} = conv) do
-    %{ conv | status: 200, resp_body: "Teddy, Smokey, Paddington"}
+    BearController.index(conv)
   end
 
   def route(%Conv{method: "GET", path: "/bears/" <> id} = conv) do
-    %{ conv | status: 200, resp_body: "bear #{id}"}
+    params = Map.put(conv.params, "id", id)
+    BearController.show(conv, params)
   end
 
   def route(%Conv{method: "POST", path: "/bears"} = conv) do
-    %{ conv | status: 201, resp_body: "Create a #{conv.params["type"]} bear named #{conv.params["name"]}!"}
+    BearController.create(conv, conv.params)
   end
 
   def route(%Conv{method: "GET", path: "/about"} = conv) do
@@ -49,18 +51,6 @@ defmodule Servy.Handler do
     |> File.read
     |> handle_file(conv)
   end
-
-  # def route(%{method: "GET", path: "/about"} = conv) do
-  #   # 상대경로를 절대경로로 치환해줌.
-  #   file = Path.expand("../../pages", __DIR__)
-  #   |> Path.join("about.html")
-
-  #   case File.read(file) do
-  #     {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
-  #     {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
-  #     {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
-  #   end
-  # end
 
   def route(%Conv{} = conv) do
     %{ conv | status: 404, resp_body: "no #{conv.path} here"}
@@ -184,6 +174,8 @@ POST /bears HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
 
 name=Baloo&type=Yellow
 """

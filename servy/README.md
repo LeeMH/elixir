@@ -25,6 +25,12 @@
 
 ## [12. Matching Heads and Tails](/servy/docs/12.matching_heads_and_tails.md)
 
+## [13. Recursion](/servy/docs/13.recursion.md)
+
+## [14. Slicing and Dicing with Enum](/servy/docs/14.slicing_and_dicing_with_enum.md)
+
+
+
 
 
 
