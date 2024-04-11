@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/12.matching_heads_and_tails.md",
+                "file": "servy/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9adcadaf4a497ba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "servy/docs/13.recursion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/12.matching_heads_and_tails.md",
+                "file": "servy/docs/13.recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/12.matching_heads_and_tails.md",
+                "file": "servy/docs/13.recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/12.matching_heads_and_tails.md"
+                "file": "servy/docs/13.recursion.md"
               }
             }
           }
@@ -159,13 +171,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "126a557037e33a84",
+  "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/docs/12.matching_heads_and_tails.md",
+    "servy/docs/13.recursion.md",
+    "servy/README.md",
     "servy/lib/servy/conv.ex",
     "servy/docs/10.organizing_code.md",
     "servy/docs/11.modeling_with_structs.md",
-    "servy/docs/12.matching_heads_and_tails.md",
-    "servy/README.md",
     "servy/lib/servy/conv.ex",
     "servy/docs/10.organizing_code.md",
     "servy/test/test_helper.exs",
@@ -176,7 +189,6 @@
     "servy/mix.exs",
     "servy/lib/servy/plugins.ex",
     "servy/lib/servy/parser.ex",
-    "servy/lib/servy/handler.ex",
     "servy/docs/9.module_attribute.md",
     "servy/docs/8.serving_files.md",
     "servy/docs/7.pattern_matching_maps.md",
