@@ -4,10 +4,16 @@ defmodule Servy.BearController do
 
 
   def index(conv) do
-    bears = Wildthings.list_bears()
+    items =
+      Wildthings.list_bears()
+      ## filter only Grizzly bears
+      |> Enum.filter(fn(b) -> b.type == "Grizzly" end)
+      ## sort ascending
+      |> Enum.sort(fn(b1, b2) -> b1.name <= b2.name end)
+      |> Enum.map(fn(b) -> "<li>#{b.name} - #{b.type}</li>" end)
+      |> Enum.join
 
-    # TODO : Transform bears to an HTML list
-    %{ conv | status: 200, resp_body: "Teddy, Smokey, Paddington" }
+    %{ conv | status: 200, resp_body: "<ul>#{items}</ul>" }
   end
 
   def show(conv, %{"id" => id}) do
