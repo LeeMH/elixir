@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/13.recursion.md",
+                "file": "servy/docs/14.slicing_and_dicing_with_enum.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/13.recursion.md",
+                "file": "servy/docs/14.slicing_and_dicing_with_enum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/13.recursion.md",
+                "file": "servy/docs/14.slicing_and_dicing_with_enum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/13.recursion.md"
+                "file": "servy/docs/14.slicing_and_dicing_with_enum.md"
               }
             }
           }
@@ -173,23 +173,26 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/Pasted image 20240411114853.png",
+    "attached/Pasted image 20240411114850.png",
+    "attached/Pasted image 20240411114426.png",
+    "servy/docs/13.recursion.md",
+    "servy/docs/14.slicing_and_dicing_with_enum.md",
+    "servy/README.md",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Wildthings.beam",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Bear.beam",
     "servy/lib/servy/wildthings.ex",
     "servy/lib/servy/bear.ex",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.BearController.beam",
     "servy/lib/servy/bear_controller.ex",
     "servy/docs/12.matching_heads_and_tails.md",
-    "servy/docs/13.recursion.md",
-    "servy/README.md",
     "servy/lib/servy/conv.ex",
     "servy/docs/10.organizing_code.md",
     "servy/docs/11.modeling_with_structs.md",
     "servy/lib/servy/conv.ex",
     "servy/docs/10.organizing_code.md",
     "servy/test/test_helper.exs",
-    "servy/test/servy_test.exs",
-    "servy/test",
-    "servy/pages/about.html",
     "servy/docs/9.module_attribute.md",
     "servy/docs/8.serving_files.md",
     "servy/docs/7.pattern_matching_maps.md",
