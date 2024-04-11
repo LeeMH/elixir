@@ -27,7 +27,7 @@ defmodule Servy.Plugins do
     %{ conv | path: "/wildthings" }
   end
 
-  def rewrite_path(%Conv{path: "/bears?id" <> id} = conv) do
+  def rewrite_path(%Conv{path: "/bears?id=" <> id} = conv) do
     %{ conv | path: "/bears/#{id}" }
   end
 
