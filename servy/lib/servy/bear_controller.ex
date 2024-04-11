@@ -12,10 +12,10 @@ defmodule Servy.BearController do
     items =
       Wildthings.list_bears()
       ## filter only Grizzly bears
-      |> Enum.filter(&Bear.is_grizzly(&1))
+      |> Enum.filter(&Bear.is_grizzly/1)
       ## sort ascending
-      |> Enum.sort(&Bear.order_asc_by_name(&1, &2))
-      |> Enum.map(&bear_item(&1))
+      |> Enum.sort(&Bear.order_asc_by_name/2)
+      |> Enum.map(&bear_item/1)
       |> Enum.join
 
     %{ conv | status: 200, resp_body: "<ul>#{items}</ul>" }
