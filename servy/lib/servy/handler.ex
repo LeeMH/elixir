@@ -50,18 +50,6 @@ defmodule Servy.Handler do
     |> handle_file(conv)
   end
 
-  # def route(%{method: "GET", path: "/about"} = conv) do
-  #   # 상대경로를 절대경로로 치환해줌.
-  #   file = Path.expand("../../pages", __DIR__)
-  #   |> Path.join("about.html")
-
-  #   case File.read(file) do
-  #     {:ok, contents} -> %{ conv | status: 200, resp_body: contents }
-  #     {:error, :enoent} -> %{ conv | status: 404, resp_body: "File not found!"}
-  #     {:error, reason} -> %{ conv | status: 500, resp_body: "File error #{reason}"}
-  #   end
-  # end
-
   def route(%Conv{} = conv) do
     %{ conv | status: 404, resp_body: "no #{conv.path} here"}
   end
@@ -184,6 +172,24 @@ POST /bears HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+
+name=Baloo&type=Yellow
+"""
+
+response = Servy.Handler.handle(request)
+
+IO.puts response
+
+# 아홉번째 요청
+request = """
+POST /bears HTTP/1.1
+Host: example.com
+User-Agent: ExampleBrowser/1.0
+Accept: */*
+Content-Type: multipart/form-data
+Content-Length: 21
 
 name=Baloo&type=Yellow
 """
