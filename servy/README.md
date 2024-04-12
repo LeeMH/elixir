@@ -29,6 +29,9 @@
 
 ## [14. Slicing and Dicing with Enum](/servy/docs/14.slicing_and_dicing_with_enum.md)
 
+## [15. Comprehensions](/servy/docs/15.comprehensions.md)
+
+
 
 
 
