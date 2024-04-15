@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/test/handler_test.exs",
     "servy/_build/test/lib/servy/ebin/Elixir.Servy.Parser.beam",
     "servy/test/parser_test.exs",
     "servy/_build/test/lib/servy/consolidated/Elixir.Inspect.beam",
@@ -183,7 +184,6 @@
     "servy/_build/test/lib/servy/consolidated/Elixir.List.Chars.beam",
     "servy/_build/test/lib/servy/consolidated",
     "servy/_build/test/lib/servy/ebin/servy.app",
-    "servy/_build/test/lib/servy/ebin/Elixir.Servy.Wildthings.beam",
     "servy/docs/14.slicing_and_dicing_with_enum.md",
     "servy/docs/15.comprehensions.md",
     "servy/README.md",

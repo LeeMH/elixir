@@ -19,6 +19,8 @@ defmodule Servy.BearController do
       ## sort ascending
       |> Enum.sort(&Bear.order_asc_by_name/2)
 
+    Enum.each(bears, &(IO.puts &1.name))
+
     render(conv, "index.eex", bears: bears)
   end
 
@@ -29,6 +31,6 @@ defmodule Servy.BearController do
   end
 
   def create(conv, %{"name" => name, "type" => type}) do
-    %{ conv | status: 201, resp_body: "Create a #{type} bear named #{name}!"}
+    %{ conv | status: 201, resp_body: "Created a #{type} bear named #{name}!"}
   end
 end
