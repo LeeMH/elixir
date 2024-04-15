@@ -33,17 +33,17 @@ defmodule Servy.Parser do
   # 마지막에 header 내용이 누적된 headers를 그대로 리턴한다.
   def parse_headers([], headers), do: headers
 
-#  @doc """
+  @doc """
   Parses the given param string of the form `key1=value1&key2=value2`
   into a map with corresponding keys and values.
 
   ## Examples
       iex> params_string = "name=Baloo&type=Brown"
-      iex> Servy.Parser.parse_params("application/x-www-form-urlencoded", param_string)
+      iex> Servy.Parser.parse_params("application/x-www-form-urlencoded", params_string)
       %{"name" => "Baloo", "type" => "Brown"}
-      iex> Servy.Parser.parse_params("multipart/form-data", param_string)
+      iex> Servy.Parser.parse_params("multipart/form-data", params_string)
       %{}
-#  """
+  """
   def parse_params("application/x-www-form-urlencoded", params_string) do
     params_string |> String.trim |> URI.decode_query
   end
