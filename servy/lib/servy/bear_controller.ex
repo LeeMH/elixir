@@ -19,8 +19,6 @@ defmodule Servy.BearController do
       ## sort ascending
       |> Enum.sort(&Bear.order_asc_by_name/2)
 
-    Enum.each(bears, &(IO.puts &1.name))
-
     render(conv, "index.eex", bears: bears)
   end
 
