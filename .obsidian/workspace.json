@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/15.comprehensions.md",
+                "file": "servy/docs/16.test_automation.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/15.comprehensions.md",
+                "file": "servy/docs/16.test_automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/15.comprehensions.md",
+                "file": "servy/docs/16.test_automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/15.comprehensions.md"
+                "file": "servy/docs/16.test_automation.md"
               }
             }
           }
@@ -173,23 +173,26 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/14.slicing_and_dicing_with_enum.md",
+    "attached/Pasted image 20240415122954.png",
+    "attached/Pasted image 20240415121840.png",
     "servy/docs/15.comprehensions.md",
+    "servy/docs/16.test_automation.md",
     "servy/README.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.BearController.beam",
-    "servy/templates/show.eex",
-    "servy/templates/index.eex",
-    "servy/templates",
+    "servy/test/handler_test.exs",
+    "servy/_build/test/lib/servy/ebin/Elixir.Servy.Parser.beam",
+    "servy/test/parser_test.exs",
+    "servy/_build/test/lib/servy/consolidated/Elixir.Inspect.beam",
+    "servy/_build/test/lib/servy/consolidated/Elixir.IEx.Info.beam",
+    "servy/_build/test/lib/servy/consolidated/Elixir.Enumerable.beam",
+    "servy/_build/test/lib/servy/consolidated/Elixir.String.Chars.beam",
+    "servy/_build/test/lib/servy/consolidated/Elixir.Collectable.beam",
+    "servy/_build/test/lib/servy/consolidated/Elixir.List.Chars.beam",
+    "servy/_build/test/lib/servy/consolidated",
+    "servy/docs/14.slicing_and_dicing_with_enum.md",
     "attached/Pasted image 20240411114853.png",
     "attached/Pasted image 20240411114850.png",
     "attached/Pasted image 20240411114426.png",
     "servy/docs/13.recursion.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Wildthings.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Bear.beam",
-    "servy/lib/servy/wildthings.ex",
-    "servy/lib/servy/bear.ex",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
-    "servy/lib/servy/bear_controller.ex",
     "servy/docs/12.matching_heads_and_tails.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/11.modeling_with_structs.md",
