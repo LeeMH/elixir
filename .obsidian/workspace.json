@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/16.test_automation.md",
+                "file": "servy/docs/17.rendering_json.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/16.test_automation.md",
+                "file": "servy/docs/17.rendering_json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/16.test_automation.md",
+                "file": "servy/docs/17.rendering_json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/16.test_automation.md"
+                "file": "servy/docs/17.rendering_json.md"
               }
             }
           }
@@ -173,6 +173,12 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/버젼변경에러.png",
+    "attached/tree구조.png",
+    "attached/의존성설치.png",
+    "servy/docs/16.test_automation.md",
+    "servy/docs/17.rendering_json.md",
+    "servy/README.md",
     "servy/_build/test/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
@@ -183,13 +189,10 @@
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.ParseError.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.MissingDependencyError.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.Encoder.URI.beam",
-    "servy/_build/test/lib/poison/ebin/Elixir.Poison.Encoder.Time.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
     "servy/docs/15.comprehensions.md",
-    "servy/docs/16.test_automation.md",
-    "servy/README.md",
     "servy/docs/14.slicing_and_dicing_with_enum.md",
     "attached/Pasted image 20240411114853.png",
     "attached/Pasted image 20240411114850.png",
@@ -214,7 +217,6 @@
     "servy/docs/2.pattern_matching.md",
     "README.md",
     "servy/docs/1.create mix project.md",
-    "servy/docs/1.create.md",
-    "docs/1.create mix project.md"
+    "servy/docs/1.create.md"
   ]
 }
