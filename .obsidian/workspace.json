@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/17.rendering_json.md",
+                "file": "servy/docs/18.web_server_sockets.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/17.rendering_json.md",
+                "file": "servy/docs/18.web_server_sockets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/17.rendering_json.md",
+                "file": "servy/docs/18.web_server_sockets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/17.rendering_json.md"
+                "file": "servy/docs/18.web_server_sockets.md"
               }
             }
           }
@@ -173,14 +173,15 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/docs/17.rendering_json.md",
+    "servy/docs/18.web_server_sockets.md",
+    "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.HttpServer.beam",
     "servy/lib/servy/http_server.ex",
     "attached/버젼변경에러.png",
     "attached/tree구조.png",
     "attached/의존성설치.png",
     "servy/docs/16.test_automation.md",
-    "servy/docs/17.rendering_json.md",
-    "servy/README.md",
     "servy/_build/test/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
@@ -189,7 +190,6 @@
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.Pretty.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.Parser.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.ParseError.beam",
-    "servy/_build/test/lib/poison/ebin/Elixir.Poison.MissingDependencyError.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
