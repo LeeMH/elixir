@@ -35,6 +35,12 @@
 
 ## [17. Rendering JSON](/servy/docs/17.rendering_json.md)
 
+## [18. Web Server Sockets](/servy/docs/18.web_server_sockets.md)
+
+## [19. Concurrent, Isolated Processes](/servy/docs/19.concurrent_isolated_processes.md)
+
+
+
 
 
 
