@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.HttpServer.beam",
     "servy/lib/servy/http_server.ex",
     "attached/버젼변경에러.png",
     "attached/tree구조.png",
@@ -189,7 +190,6 @@
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.Parser.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.ParseError.beam",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.MissingDependencyError.beam",
-    "servy/_build/test/lib/poison/ebin/Elixir.Poison.Encoder.URI.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
