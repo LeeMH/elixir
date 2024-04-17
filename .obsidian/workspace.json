@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/18.web_server_sockets.md",
+                "file": "servy/docs/19.concurrent_isolated_processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/18.web_server_sockets.md",
+                "file": "servy/docs/19.concurrent_isolated_processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/18.web_server_sockets.md",
+                "file": "servy/docs/19.concurrent_isolated_processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/18.web_server_sockets.md"
+                "file": "servy/docs/19.concurrent_isolated_processes.md"
               }
             }
           }
@@ -173,9 +173,10 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/17.rendering_json.md",
     "servy/docs/18.web_server_sockets.md",
+    "servy/docs/19.concurrent_isolated_processes.md",
     "servy/README.md",
+    "servy/docs/17.rendering_json.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.HttpServer.beam",
     "servy/lib/servy/http_server.ex",
     "attached/버젼변경에러.png",
@@ -217,7 +218,6 @@
     "7.serving_files.md",
     "servy/docs/2.pattern_matching.md",
     "README.md",
-    "servy/docs/1.create mix project.md",
-    "servy/docs/1.create.md"
+    "servy/docs/1.create mix project.md"
   ]
 }
