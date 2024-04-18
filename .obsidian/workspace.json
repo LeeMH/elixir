@@ -173,6 +173,8 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Tracker.beam",
+    "servy/lib/servy/tracker.ex",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Fetcher.beam",
     "servy/lib/servy/fetcher.ex",
     "attached/프로세스간통신.png",
@@ -192,8 +194,6 @@
     "servy/docs/16.test_automation.md",
     "servy/_build/test/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
-    "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
-    "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",

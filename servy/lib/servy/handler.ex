@@ -28,17 +28,19 @@ defmodule Servy.Handler do
     |> format_response
   end
 
-  def route(%Conv{ method: "GET", path: "/snapshots" } = conv) do
+  def route(%Conv{ method: "GET", path: "/sensors" } = conv) do
     Fetcher.async(fn -> Servy.VideoCam.get_snapshot("cam-1") end)
     Fetcher.async(fn -> Servy.VideoCam.get_snapshot("cam-2") end)
     Fetcher.async(fn -> Servy.VideoCam.get_snapshot("cam-3") end)
+    Fetcher.async(fn -> Servy.Tracker.get_location("bigfoot") end)
 
     snapshot1 = Fetcher.get_result()
     snapshot2 = Fetcher.get_result()
     snapshot3 = Fetcher.get_result()
+    where_is_bigfoot = Fetcher.get_result()
     snapshots = [snapshot1, snapshot2, snapshot3]
 
-    %{ conv | status: 200, resp_body: inspect snapshots}
+    %{ conv | status: 200, resp_body: inspect {snapshots, where_is_bigfoot}}
   end
 
   def route(%Conv{method: "GET", path: "/kaboom"} = conv) do
