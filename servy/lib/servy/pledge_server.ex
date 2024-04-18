@@ -20,16 +20,14 @@ defmodule Servy.PledgeServer do
 
   end
 
-  def create_pledge(name, amount) do
-    {:ok, id} = send_pledge_to_servcie(name, amount)
-
-    # cache the pledge:
-    [ {"larry", 10}]
+  def create_pledge(pid, name, amount) do
+    send pid, {:create_pledge, name, amount}
   end
 
-  def recent_pledges do
-    # returns the most recent pledges(cache):
-    [ {"larry", 10}]
+  def recent_pledges(pid) do
+    send pid, {self(), :recent_pledges}
+
+    receive do {:response, pledges} -> pledges end
   end
 
   defp send_pledge_to_servcie(_name, _amount) do
@@ -43,12 +41,11 @@ alias Servy.PledgeServer
 
 pid = spawn(PledgeServer, :listen_loop, [[]])
 
-send pid, {:create_pledge, "larry", 10}
-send pid, {:create_pledge, "moe", 20}
-send pid, {:create_pledge, "curly", 30}
-send pid, {:create_pledge, "daisy", 40}
-send pid, {:create_pledge, "grace", 50}
+PledgeServer.create_pledge(pid, "larry", 10)
+PledgeServer.create_pledge(pid, "moe", 20)
+PledgeServer.create_pledge(pid, "curly", 30)
+PledgeServer.create_pledge(pid, "daisy", 40)
+PledgeServer.create_pledge(pid, "grace", 50)
 
-send pid, {self(), :recent_pledges}
-
-receive do {:response, pledges} -> IO.inspect pledges end
+pledges = PledgeServer.recent_pledges(pid)
+IO.inspect pledges
