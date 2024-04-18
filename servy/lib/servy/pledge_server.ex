@@ -1,6 +1,4 @@
 defmodule Servy.PledgeServer do
-  alias Servy.PledgeServer
-
   @name :pledge_server
 
   def start do
