@@ -1,11 +1,13 @@
 defmodule Servy.PledgeServer do
   alias Servy.PledgeServer
 
+  @name :pledge_server
+
   def start do
     IO.puts "Starting the pledge server..."
     pid = spawn(__MODULE__, :listen_loop, [[]])
     ## PID를 :pledge_server로 등록한다.
-    Process.register(pid, :pledge_server)
+    Process.register(pid, @name)
     pid
   end
 
@@ -32,13 +34,13 @@ defmodule Servy.PledgeServer do
   end
 
   def create_pledge(name, amount) do
-    send :pledge_server, {self(), :create_pledge, name, amount}
+    send @name, {self(), :create_pledge, name, amount}
 
     receive do {:response, status} -> status end
   end
 
   def recent_pledges() do
-    send :pledge_server, {self(), :recent_pledges}
+    send @name, {self(), :recent_pledges}
 
     receive do {:response, pledges} -> pledges end
   end
@@ -52,7 +54,7 @@ end
 
 alias Servy.PledgeServer
 
-pid = PledgeServer.start()
+PledgeServer.start()
 
 IO.inspect PledgeServer.create_pledge("larry", 10)
 IO.inspect PledgeServer.create_pledge("moe", 20)
