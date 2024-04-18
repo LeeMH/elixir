@@ -37,3 +37,18 @@ defmodule Servy.PledgeServer do
     {:ok, "pledge-#{:rand.uniform(1000)}"}
   end
 end
+
+
+alias Servy.PledgeServer
+
+pid = spawn(PledgeServer, :listen_loop, [[]])
+
+send pid, {:create_pledge, "larry", 10}
+send pid, {:create_pledge, "moe", 20}
+send pid, {:create_pledge, "curly", 30}
+send pid, {:create_pledge, "daisy", 40}
+send pid, {:create_pledge, "grace", 50}
+
+send pid, {self(), :recent_pledges}
+
+receive do {:response, pledges} -> IO.inspect pledges end
