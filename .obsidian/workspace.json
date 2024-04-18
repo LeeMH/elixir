@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/21.asynchronous_tasks.md",
+                "file": "servy/docs/22.stateful_server_processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/21.asynchronous_tasks.md",
+                "file": "servy/docs/22.stateful_server_processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/21.asynchronous_tasks.md",
+                "file": "servy/docs/22.stateful_server_processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/21.asynchronous_tasks.md"
+                "file": "servy/docs/22.stateful_server_processes.md"
               }
             }
           }
@@ -173,27 +173,30 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/20.sending_and_receiving_messages.md",
+    "attached/Pasted image 20240418193522.png",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
+    "attached/state관리.png",
     "servy/docs/21.asynchronous_tasks.md",
+    "servy/docs/22.stateful_server_processes.md",
     "servy/README.md",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeController.beam",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
+    "servy/lib/servy/pledge_server.ex",
+    "servy/lib/servy/pledge_controller.ex",
+    "servy/docs/20.sending_and_receiving_messages.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Tracker.beam",
     "servy/lib/servy/tracker.ex",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Fetcher.beam",
     "servy/lib/servy/fetcher.ex",
     "attached/프로세스간통신.png",
     "servy/docs/19.concurrent_isolated_processes.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.VideoCam.beam",
-    "servy/lib/servy/video_cam.ex",
     "servy/docs/18.web_server_sockets.md",
     "servy/docs/17.rendering_json.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.HttpServer.beam",
-    "servy/lib/servy/http_server.ex",
     "attached/버젼변경에러.png",
     "attached/tree구조.png",
     "attached/의존성설치.png",
     "servy/docs/16.test_automation.md",
-    "servy/_build/test/lib/servy/ebin/Elixir.Servy.Api.BearController.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
@@ -215,9 +218,6 @@
     "servy/docs/4.immutable_data.md",
     "servy/docs/3.pattern_matching.md",
     "servy/docs/2.high_level_transformation.md",
-    "servy/docs/1.create_mix_project.md",
-    "attached/Pasted image 20240408124244.png",
-    "7.serving_files.md",
-    "servy/docs/2.pattern_matching.md"
+    "servy/docs/1.create_mix_project.md"
   ]
 }
