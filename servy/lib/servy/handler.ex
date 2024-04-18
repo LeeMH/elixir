@@ -29,13 +29,15 @@ defmodule Servy.Handler do
 
   def route(%Conv{ method: "GET", path: "/snapshots" } = conv) do
     parent = self()
+
     spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-1")}) end)
-    snapshot1 = receive do {:result, filename} -> filename end
-
     spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-2")}) end)
-    snapshot2 = receive do {:result, filename} -> filename end
-
     spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-3")}) end)
+
+    # receive는 블로킹 콜이기 때문에, spawn후 receive 하는 식으로 하면 병렬처리가 되지 않는다.
+    # 따라서, spawn 완료후 receive를 해야 한다.
+    snapshot1 = receive do {:result, filename} -> filename end
+    snapshot2 = receive do {:result, filename} -> filename end
     snapshot3 = receive do {:result, filename} -> filename end
 
     snapshots = [snapshot1, snapshot2, snapshot3]
