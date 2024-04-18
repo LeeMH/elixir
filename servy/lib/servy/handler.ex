@@ -7,6 +7,7 @@ defmodule Servy.Handler do
   alias Servy.Conv
   alias Servy.BearController
   alias Servy.VideoCam
+  alias Servy.Fetcher
 
   @pages_path Path.expand("pages", File.cwd!)
 
@@ -28,18 +29,13 @@ defmodule Servy.Handler do
   end
 
   def route(%Conv{ method: "GET", path: "/snapshots" } = conv) do
-    parent = self()
+    Fetcher.async("cam-1")
+    Fetcher.async("cam-2")
+    Fetcher.async("cam-3")
 
-    spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-1")}) end)
-    spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-2")}) end)
-    spawn(fn -> send(parent, {:result, VideoCam.get_snapshot("cam-3")}) end)
-
-    # receive는 블로킹 콜이기 때문에, spawn후 receive 하는 식으로 하면 병렬처리가 되지 않는다.
-    # 따라서, spawn 완료후 receive를 해야 한다.
-    snapshot1 = receive do {:result, filename} -> filename end
-    snapshot2 = receive do {:result, filename} -> filename end
-    snapshot3 = receive do {:result, filename} -> filename end
-
+    snapshot1 = Fetcher.get_result()
+    snapshot2 = Fetcher.get_result()
+    snapshot3 = Fetcher.get_result()
     snapshots = [snapshot1, snapshot2, snapshot3]
 
     %{ conv | status: 200, resp_body: inspect snapshots}
