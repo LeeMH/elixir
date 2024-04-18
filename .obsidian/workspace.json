@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.VideoCam.beam",
     "servy/lib/servy/video_cam.ex",
     "servy/docs/18.web_server_sockets.md",
@@ -191,7 +192,6 @@
     "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
     "servy/_build/test/lib/poison/ebin/poison.app",
     "servy/_build/test/lib/poison/ebin/Elixir.Poison.Pretty.beam",
-    "servy/_build/test/lib/poison/ebin/Elixir.Poison.Parser.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
