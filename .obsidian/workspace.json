@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/lib/servy/video_cam.ex",
     "servy/docs/18.web_server_sockets.md",
     "servy/docs/19.concurrent_isolated_processes.md",
     "servy/README.md",
@@ -217,7 +218,6 @@
     "attached/Pasted image 20240408124055.png",
     "7.serving_files.md",
     "servy/docs/2.pattern_matching.md",
-    "README.md",
-    "servy/docs/1.create mix project.md"
+    "README.md"
   ]
 }
