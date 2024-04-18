@@ -173,11 +173,11 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
     "attached/state관리.png",
     "servy/docs/21.asynchronous_tasks.md",
     "servy/docs/22.stateful_server_processes.md",
     "servy/README.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeController.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/lib/servy/pledge_server.ex",
@@ -217,7 +217,6 @@
     "servy/docs/4.immutable_data.md",
     "servy/docs/3.pattern_matching.md",
     "servy/docs/2.high_level_transformation.md",
-    "servy/docs/1.create_mix_project.md",
-    "attached/Pasted image 20240408124244.png"
+    "servy/docs/1.create_mix_project.md"
   ]
 }
