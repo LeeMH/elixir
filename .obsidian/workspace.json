@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/19.concurrent_isolated_processes.md",
+                "file": "servy/docs/20.sending_and_receiving_messages.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/19.concurrent_isolated_processes.md",
+                "file": "servy/docs/20.sending_and_receiving_messages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/19.concurrent_isolated_processes.md",
+                "file": "servy/docs/20.sending_and_receiving_messages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/19.concurrent_isolated_processes.md"
+                "file": "servy/docs/20.sending_and_receiving_messages.md"
               }
             }
           }
@@ -173,12 +173,14 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/프로세스간통신.png",
+    "servy/docs/19.concurrent_isolated_processes.md",
+    "servy/docs/20.sending_and_receiving_messages.md",
+    "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.VideoCam.beam",
     "servy/lib/servy/video_cam.ex",
     "servy/docs/18.web_server_sockets.md",
-    "servy/docs/19.concurrent_isolated_processes.md",
-    "servy/README.md",
     "servy/docs/17.rendering_json.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.HttpServer.beam",
     "servy/lib/servy/http_server.ex",
@@ -191,7 +193,6 @@
     "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
     "servy/_build/test/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
     "servy/_build/test/lib/poison/ebin/poison.app",
-    "servy/_build/test/lib/poison/ebin/Elixir.Poison.Pretty.beam",
     "servy/deps/poison/README.md",
     "attached/Pasted image 20240415122954.png",
     "attached/Pasted image 20240415121840.png",
@@ -217,7 +218,6 @@
     "attached/Pasted image 20240408124244.png",
     "attached/Pasted image 20240408124055.png",
     "7.serving_files.md",
-    "servy/docs/2.pattern_matching.md",
-    "README.md"
+    "servy/docs/2.pattern_matching.md"
   ]
 }
