@@ -13,7 +13,17 @@ defmodule Servy.PledgeServer do
     GenServer.start(__MODULE__, %State{}, name: @name)
   end
 
+  ############################
   # server callbacks
+  ############################
+
+  ## GenServer start될때 호출된다.
+  def init(state) do
+    pledges = fetch_recent_pledges_from_service()
+    new_state = %{state | pledges: pledges}
+    {:ok, new_state}
+  end
+
   def handle_cast(:clear, state) do
     {:noreply, %{state | pledges: []}}
   end
@@ -50,7 +60,9 @@ defmodule Servy.PledgeServer do
     {:ok, "pledge-#{:rand.uniform(1000)}"}
   end
 
+  ############################
   ## Client Side run
+  ############################
   def create_pledge(name, amount) do
     GenServer.call @name, {:create_pledge, name, amount}
   end
@@ -71,6 +83,12 @@ defmodule Servy.PledgeServer do
     GenServer.cast @name, {:set_cache_size, size}
   end
 
+  defp fetch_recent_pledges_from_service do
+    # 실제 외부서비스를 이용해서 초기화 한다.
+    # 테스트를 위해 임시로 하드코딩된 결과를 리턴
+    [ {"wilma", 15}, {"fred", 25} ]
+  end
+
 end
 
 
@@ -83,10 +101,10 @@ alias Servy.PledgeServer
 PledgeServer.set_cache_size(4)
 
 IO.inspect PledgeServer.create_pledge("larry", 10)
-PledgeServer.clear()
-IO.inspect PledgeServer.create_pledge("moe", 20)
-IO.inspect PledgeServer.create_pledge("curly", 30)
-IO.inspect PledgeServer.create_pledge("daisy", 40)
+# PledgeServer.clear()
+# IO.inspect PledgeServer.create_pledge("moe", 20)
+# IO.inspect PledgeServer.create_pledge("curly", 30)
+# IO.inspect PledgeServer.create_pledge("daisy", 40)
 
 
 
