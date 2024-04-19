@@ -1,8 +1,8 @@
 defmodule Servy.GenericServer do
   ## 일반화된 서버를 위해, 초기 상태, name을 argument로 받아서 start 한다.
-  def start(initial_state, name) do
+  def start(callback_module, initial_state, name) do
     IO.puts "Starting the pledge server..."
-    pid = spawn(__MODULE__, :listen_loop, [initial_state])
+    pid = spawn(__MODULE__, :listen_loop, [initial_state, callback_module])
     ## PID를 :pledge_server로 등록한다.
     Process.register(pid, name)
     pid
@@ -17,19 +17,19 @@ defmodule Servy.GenericServer do
     send pid, {:cast, message}
   end
 
-  def listen_loop(state) do
+  def listen_loop(state, callback_module) do
     receive do
       {:call, sender, message} when is_pid(sender) ->
-        {response, new_state} = Servy.PledgeServer.handle_call(message, state)
+        {response, new_state} = callback_module.handle_call(message, state)
         send sender, {:response, response}
-        listen_loop(new_state)
+        listen_loop(new_state, callback_module)
       {:cast, message} ->
-        new_state = Servy.PledgeServer.handle_cast(message, state)
-        listen_loop(new_state)
+        new_state = callback_module.handle_cast(message, state)
+        listen_loop(new_state, callback_module)
       ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을
       unexpected ->
         IO.puts "Unexpected messaged: #{inspect unexpected}"
-        listen_loop(state)
+        listen_loop(state, callback_module)
     end
   end
 end
@@ -41,9 +41,10 @@ defmodule Servy.PledgeServer do
 
   def start() do
     IO.puts "Starting the pledge server..."
-    GenericServer.start([], @name)
+    GenericServer.start(__MODULE__, [], @name)
   end
 
+  # server callbacks
   def handle_cast(:clear, _state) do
     []
   end
