@@ -11,10 +11,8 @@ defmodule Servy.PledgeServer do
   end
 
   def listen_loop(state) do
-    IO.puts "\nWaiting for a message..."
-
     receive do
-      {sender, :create_pledge, name, amount} ->
+      {sender, {:create_pledge, name, amount}} ->
         {:ok, id} = send_pledge_to_servcie(name, amount)
         ## 기존 state 앞에 새로 생성된 pledge를 추가한다.
         most_recent_pledges = Enum.take(state, 2)
@@ -38,7 +36,7 @@ defmodule Servy.PledgeServer do
           send sender, {:response, total}
           listen_loop(state)
 
-      ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을 추가한다
+      ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을
       unexpected ->
         IO.puts "Unexpected messaged: #{inspect unexpected}"
         listen_loop(state)
@@ -48,21 +46,20 @@ defmodule Servy.PledgeServer do
 
   ## Client Side run
   def create_pledge(name, amount) do
-    send @name, {self(), :create_pledge, name, amount}
-
-    receive do {:response, status} -> status end
+    call @name, {:create_pledge, name, amount}
   end
 
   def recent_pledges() do
-    send @name, {self(), :recent_pledges}
-
-    receive do {:response, pledges} -> pledges end
+    call @name, :recent_pledges
   end
 
   def total_pledges() do
-    send @name, {self(), :total_pledged}
+    call @name, :total_pledged
+  end
 
-    receive do {:response, total} -> total end
+  def call(pid, message) do
+    send pid, {self(), message}
+    receive do {:response, response} -> response end
   end
 
   defp send_pledge_to_servcie(_name, _amount) do
