@@ -173,8 +173,8 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "attached/Pasted image 20240418193522.png",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
+    "attached/Pasted image 20240418193522.png",
     "attached/state관리.png",
     "servy/docs/21.asynchronous_tasks.md",
     "servy/docs/22.stateful_server_processes.md",
@@ -204,7 +204,6 @@
     "servy/docs/14.slicing_and_dicing_with_enum.md",
     "attached/Pasted image 20240411114853.png",
     "attached/Pasted image 20240411114850.png",
-    "attached/Pasted image 20240411114426.png",
     "servy/docs/13.recursion.md",
     "servy/docs/12.matching_heads_and_tails.md",
     "servy/docs/10.organizing_code.md",

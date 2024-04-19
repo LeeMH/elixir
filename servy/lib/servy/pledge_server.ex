@@ -12,7 +12,7 @@ defmodule Servy.PledgeServer do
 
   def listen_loop(state) do
     receive do
-      {sender, message} ->
+      {sender, message} when is_pid(sender) ->
         {response, new_state} = handle_call(message, state)
         send sender, {:response, response}
         listen_loop(new_state)
@@ -23,7 +23,7 @@ defmodule Servy.PledgeServer do
     end
   end
 
-  def handle_call(:total_pledges, state) do
+  def handle_call(:total_pledged, state) do
     total =
       ## elem은 튜플의 n번째 요소를 가져오는 함수이다. 여기서는 amount를 가져온다.
       Enum.map(state, &elem(&1, 1))
@@ -70,7 +70,9 @@ end
 
 alias Servy.PledgeServer
 
-PledgeServer.start()
+pid = PledgeServer.start()
+
+send pid, {:stop, "hammertime"}
 
 IO.inspect PledgeServer.create_pledge("larry", 10)
 IO.inspect PledgeServer.create_pledge("moe", 20)
