@@ -16,6 +16,9 @@ defmodule Servy.PledgeServer do
         {response, new_state} = handle_call(message, state)
         send sender, {:response, response}
         listen_loop(new_state)
+      :clear ->
+        new_state = []
+        listen_loop(new_state)
       ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을
       unexpected ->
         IO.puts "Unexpected messaged: #{inspect unexpected}"
@@ -61,9 +64,18 @@ defmodule Servy.PledgeServer do
     call @name, :total_pledged
   end
 
+  def clear do
+    cast @name, :clear
+  end
+
+  ## Helper Functions
   def call(pid, message) do
     send pid, {self(), message}
     receive do {:response, response} -> response end
+  end
+
+  def cast(pid, message) do
+    send pid, message
   end
 end
 
@@ -78,6 +90,9 @@ IO.inspect PledgeServer.create_pledge("larry", 10)
 IO.inspect PledgeServer.create_pledge("moe", 20)
 IO.inspect PledgeServer.create_pledge("curly", 30)
 IO.inspect PledgeServer.create_pledge("daisy", 40)
+
+PledgeServer.clear()
+
 IO.inspect PledgeServer.create_pledge("grace", 50)
 
 IO.inspect PledgeServer.recent_pledges()
