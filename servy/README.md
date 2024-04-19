@@ -47,6 +47,8 @@
 
 ## [23. Refactoring_Toward_GenServer](/servy/docs/23.refactoring_toward_gen_server.md)
 
+## [24. OTP GenServer](/servy/docs/24.otp_gen_server.md)
+
 
 
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/23.refactoring_toward_gen_server.md",
+                "file": "servy/docs/24.otp_gen_server.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/23.refactoring_toward_gen_server.md",
+                "file": "servy/docs/24.otp_gen_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/23.refactoring_toward_gen_server.md",
+                "file": "servy/docs/24.otp_gen_server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/23.refactoring_toward_gen_server.md"
+                "file": "servy/docs/24.otp_gen_server.md"
               }
             }
           }
@@ -173,6 +173,9 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/docs/23.refactoring_toward_gen_server.md",
+    "servy/docs/24.otp_gen_server.md",
+    "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.State.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServerHandRolled.beam",
@@ -180,8 +183,6 @@
     "servy/lib/servy/pledge_server copy.ex",
     "attached/코드중복.png",
     "servy/docs/22.stateful_server_processes.md",
-    "servy/docs/23.refactoring_toward_gen_server.md",
-    "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.GenericServer.beam",
     "attached/Pasted image 20240418193522.png",
     "attached/state관리.png",
@@ -191,7 +192,6 @@
     "servy/lib/servy/pledge_server.ex",
     "servy/lib/servy/pledge_controller.ex",
     "servy/docs/20.sending_and_receiving_messages.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Tracker.beam",
     "attached/프로세스간통신.png",
     "servy/docs/19.concurrent_isolated_processes.md",
     "servy/docs/18.web_server_sockets.md",
