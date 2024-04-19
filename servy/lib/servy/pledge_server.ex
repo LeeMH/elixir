@@ -12,36 +12,40 @@ defmodule Servy.PledgeServer do
 
   def listen_loop(state) do
     receive do
-      {sender, {:create_pledge, name, amount}} ->
-        {:ok, id} = send_pledge_to_servcie(name, amount)
-        ## 기존 state 앞에 새로 생성된 pledge를 추가한다.
-        most_recent_pledges = Enum.take(state, 2)
-        new_state = [ {name, amount} | most_recent_pledges ]
-
-        ## 요청자에게 응답 전송
-        send sender, {:response, id}
-
-        ## 해당 상태를 유지하기 위해, 다시 listen_loop에 해당값을 전달한다.
+      {sender, message} ->
+        {response, new_state} = handle_call(message, state)
+        send sender, {:response, response}
         listen_loop(new_state)
-
-      {sender, :recent_pledges} ->
-        send sender, {:response, state}
-        listen_loop(state)
-
-        {sender, :total_pledged} ->
-          total =
-            ## elem은 튜플의 n번째 요소를 가져오는 함수이다. 여기서는 amount를 가져온다.
-            Enum.map(state, &elem(&1, 1))
-            |> Enum.sum
-          send sender, {:response, total}
-          listen_loop(state)
-
       ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을
       unexpected ->
         IO.puts "Unexpected messaged: #{inspect unexpected}"
         listen_loop(state)
     end
+  end
 
+  def handle_call(:total_pledges, state) do
+    total =
+      ## elem은 튜플의 n번째 요소를 가져오는 함수이다. 여기서는 amount를 가져온다.
+      Enum.map(state, &elem(&1, 1))
+      |> Enum.sum
+    {total, state}
+  end
+
+  def handle_call(:recent_pledges, state) do
+    {state, state}
+  end
+
+  def handle_call({:create_pledge, name, amount}, state) do
+    {:ok, id} = send_pledge_to_servcie(name, amount)
+    ## 기존 state 앞에 새로 생성된 pledge를 추가한다.
+    most_recent_pledges = Enum.take(state, 2)
+    new_state = [ {name, amount} | most_recent_pledges ]
+    {id, new_state}
+  end
+
+  defp send_pledge_to_servcie(_name, _amount) do
+    # code goes here to send pledge to external service
+    {:ok, "pledge-#{:rand.uniform(1000)}"}
   end
 
   ## Client Side run
@@ -60,11 +64,6 @@ defmodule Servy.PledgeServer do
   def call(pid, message) do
     send pid, {self(), message}
     receive do {:response, response} -> response end
-  end
-
-  defp send_pledge_to_servcie(_name, _amount) do
-    # code goes here to send pledge to external service
-    {:ok, "pledge-#{:rand.uniform(1000)}"}
   end
 end
 
