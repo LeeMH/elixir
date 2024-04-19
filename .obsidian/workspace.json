@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.State.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServerHandRolled.beam",
     "servy/lib/servy/pledge_server_hand_rolled.ex",
     "servy/lib/servy/pledge_server copy.ex",
@@ -191,7 +192,6 @@
     "servy/lib/servy/pledge_controller.ex",
     "servy/docs/20.sending_and_receiving_messages.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Tracker.beam",
-    "servy/lib/servy/tracker.ex",
     "attached/프로세스간통신.png",
     "servy/docs/19.concurrent_isolated_processes.md",
     "servy/docs/18.web_server_sockets.md",
