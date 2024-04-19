@@ -45,6 +45,11 @@
 
 ## [22. Stateful Server Processes](/servy/docs/22.stateful_server_processes.md)
 
+## [23. Refactoring_Toward_GenServer](/servy/docs/23.refactoring_toward_gen_server.md)
+
+
+
+
 
 
 
