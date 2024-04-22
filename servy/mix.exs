@@ -17,6 +17,7 @@ defmodule Servy.MixProject do
       extra_applications: [:logger],
       # 여기에 명시하면, application 기동시 자동으로 실행된다.
       mod: {Servy, []},
+      env: [port: 3000]
     ]
   end
 
