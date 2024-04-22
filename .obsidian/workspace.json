@@ -173,9 +173,13 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Supervisor.beam",
+    "servy/lib/servy/supervisor.ex",
+    "attached/Pasted image 20240422150523.png",
+    "servy/docs/1.create_mix_project.md",
+    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
     "attached/프로세스링크 1.png",
     "servy/docs/26.linking_processes.md",
-    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
     "servy/README.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.ServicesSupervisor.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.SensorServer.beam",
@@ -190,7 +194,6 @@
     "servy/docs/23.refactoring_toward_gen_server.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServerHandRolled.beam",
     "servy/lib/servy/pledge_server_hand_rolled.ex",
-    "servy/lib/servy/pledge_server copy.ex",
     "attached/코드중복.png",
     "servy/docs/22.stateful_server_processes.md",
     "attached/Pasted image 20240418193522.png",
@@ -206,8 +209,6 @@
     "attached/의존성설치.png",
     "servy/docs/16.test_automation.md",
     "servy/deps/poison/README.md",
-    "attached/Pasted image 20240415122954.png",
-    "attached/Pasted image 20240415121840.png",
     "servy/docs/15.comprehensions.md",
     "servy/docs/14.slicing_and_dicing_with_enum.md",
     "servy/docs/13.recursion.md",
@@ -217,7 +218,6 @@
     "servy/docs/10.organizing_code.md",
     "servy/docs/9.module_attribute.md",
     "servy/docs/8.serving_files.md",
-    "servy/docs/7.pattern_matching_maps.md",
-    "servy/docs/6.advanced_pattern_matching.md"
+    "servy/docs/7.pattern_matching_maps.md"
   ]
 }
