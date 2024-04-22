@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/28.final_otp_application.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/28.final_otp_application.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/28.final_otp_application.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/28.final_otp_application.md"
+                "file": "live_view_studio/docs/1.project_setup.md"
               }
             }
           }
@@ -173,51 +173,51 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
-    "servy/lib/servy/servy.ex",
-    "servy/lib/servy.ex",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Collectable.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.String.Chars.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.List.Chars.beam",
-    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
-    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
-    "servy/docs/28.final_otp_application.md",
-    "servy/README.md",
-    "README.md",
-    "attached/Pasted image 20240422150523.png",
     "servy/docs/1.create_mix_project.md",
-    "attached/프로세스링크 1.png",
-    "servy/docs/26.linking_processes.md",
-    "attached/프로세스링크.png",
-    "servy/docs/25.another_gen_server.md",
-    "servy/docs/24.otp_gen_server.md",
-    "servy/docs/23.refactoring_toward_gen_server.md",
-    "attached/코드중복.png",
-    "servy/docs/22.stateful_server_processes.md",
-    "attached/Pasted image 20240418193522.png",
-    "attached/state관리.png",
-    "servy/docs/21.asynchronous_tasks.md",
-    "servy/docs/20.sending_and_receiving_messages.md",
-    "attached/프로세스간통신.png",
-    "servy/docs/19.concurrent_isolated_processes.md",
-    "servy/docs/18.web_server_sockets.md",
-    "servy/docs/17.rendering_json.md",
-    "attached/버젼변경에러.png",
-    "attached/tree구조.png",
-    "attached/의존성설치.png",
-    "servy/docs/16.test_automation.md",
-    "servy/deps/poison/README.md",
-    "servy/docs/15.comprehensions.md",
-    "servy/docs/14.slicing_and_dicing_with_enum.md",
-    "servy/docs/13.recursion.md",
-    "servy/docs/12.matching_heads_and_tails.md",
-    "servy/docs/10.organizing_code.md",
-    "servy/docs/11.modeling_with_structs.md",
-    "servy/docs/10.organizing_code.md",
-    "servy/docs/9.module_attribute.md"
+    "live_view_studio/docs/1.project_setup.md",
+    "live_view_studio/README.md",
+    "servy/README.md",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Inspect.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.IEx.Info.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Phoenix.HTML.Safe.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Jason.Encoder.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Enumerable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.String.Chars.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Collectable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Plug.Exception.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Ecto.Queryable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Timex.Protocol.beam",
+    "live_view_studio/deps/connection/README.md",
+    "live_view_studio/deps/postgrex/CHANGELOG.md",
+    "live_view_studio/deps/websock/README.md",
+    "live_view_studio/deps/websock_adapter/README.md",
+    "live_view_studio/deps/phoenix_pubsub/README.md",
+    "live_view_studio/deps/phoenix_pubsub/LICENSE.md",
+    "live_view_studio/deps/phoenix_pubsub/CHANGELOG.md",
+    "live_view_studio/deps/ecto/CHANGELOG.md",
+    "live_view_studio/deps/ecto/README.md",
+    "live_view_studio/deps/db_connection/CHANGELOG.md",
+    "live_view_studio/deps/db_connection/README.md",
+    "live_view_studio/deps/file_system/README.md",
+    "live_view_studio/deps/phoenix_template/CHANGELOG.md",
+    "live_view_studio/deps/phoenix_template/LICENSE.md",
+    "live_view_studio/deps/phoenix_template/README.md",
+    "live_view_studio/deps/hpax/CHANGELOG.md",
+    "live_view_studio/deps/hpax/README.md",
+    "live_view_studio/deps/nimble_pool/CHANGELOG.md",
+    "live_view_studio/deps/nimble_pool/README.md",
+    "live_view_studio/deps/nimble_options/CHANGELOG.md",
+    "live_view_studio/deps/nimble_options/LICENSE.md",
+    "live_view_studio/deps/nimble_options/README.md",
+    "live_view_studio/deps/phoenix/priv/static/phoenix.png",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-mark.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wrench-screwdriver.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-circle.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wrench.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/window.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wifi.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wallet.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/viewfinder-circle.svg",
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/view-columns.svg"
   ]
 }
