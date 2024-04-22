@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/22.stateful_server_processes.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/22.stateful_server_processes.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/22.stateful_server_processes.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/22.stateful_server_processes.md"
+                "file": "servy/docs/28.final_otp_application.md"
               }
             }
           }
@@ -173,24 +173,37 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
+    "servy/lib/servy/servy.ex",
+    "servy/lib/servy.ex",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Collectable.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.String.Chars.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.List.Chars.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
+    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
+    "servy/docs/28.final_otp_application.md",
+    "servy/README.md",
+    "README.md",
+    "attached/Pasted image 20240422150523.png",
+    "servy/docs/1.create_mix_project.md",
+    "attached/프로세스링크 1.png",
+    "servy/docs/26.linking_processes.md",
+    "attached/프로세스링크.png",
+    "servy/docs/25.another_gen_server.md",
+    "servy/docs/24.otp_gen_server.md",
+    "servy/docs/23.refactoring_toward_gen_server.md",
+    "attached/코드중복.png",
+    "servy/docs/22.stateful_server_processes.md",
     "attached/Pasted image 20240418193522.png",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
     "attached/state관리.png",
     "servy/docs/21.asynchronous_tasks.md",
-    "servy/docs/22.stateful_server_processes.md",
-    "servy/README.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeController.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
-    "servy/lib/servy/pledge_server.ex",
-    "servy/lib/servy/pledge_controller.ex",
     "servy/docs/20.sending_and_receiving_messages.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Tracker.beam",
-    "servy/lib/servy/tracker.ex",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Fetcher.beam",
-    "servy/lib/servy/fetcher.ex",
     "attached/프로세스간통신.png",
     "servy/docs/19.concurrent_isolated_processes.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.VideoCam.beam",
     "servy/docs/18.web_server_sockets.md",
     "servy/docs/17.rendering_json.md",
     "attached/버젼변경에러.png",
@@ -198,26 +211,13 @@
     "attached/의존성설치.png",
     "servy/docs/16.test_automation.md",
     "servy/deps/poison/README.md",
-    "attached/Pasted image 20240415122954.png",
-    "attached/Pasted image 20240415121840.png",
     "servy/docs/15.comprehensions.md",
     "servy/docs/14.slicing_and_dicing_with_enum.md",
-    "attached/Pasted image 20240411114853.png",
-    "attached/Pasted image 20240411114850.png",
-    "attached/Pasted image 20240411114426.png",
     "servy/docs/13.recursion.md",
     "servy/docs/12.matching_heads_and_tails.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/11.modeling_with_structs.md",
     "servy/docs/10.organizing_code.md",
-    "servy/docs/9.module_attribute.md",
-    "servy/docs/8.serving_files.md",
-    "servy/docs/7.pattern_matching_maps.md",
-    "servy/docs/6.advanced_pattern_matching.md",
-    "servy/docs/5.function_clause.md",
-    "servy/docs/4.immutable_data.md",
-    "servy/docs/3.pattern_matching.md",
-    "servy/docs/2.high_level_transformation.md",
-    "servy/docs/1.create_mix_project.md"
+    "servy/docs/9.module_attribute.md"
   ]
 }

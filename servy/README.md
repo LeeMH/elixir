@@ -45,6 +45,26 @@
 
 ## [22. Stateful Server Processes](/servy/docs/22.stateful_server_processes.md)
 
+## [23. Refactoring_Toward_GenServer](/servy/docs/23.refactoring_toward_gen_server.md)
+
+## [24. OTP GenServer](/servy/docs/24.otp_gen_server.md)
+
+## [25. Another GenServer](/servy/docs/25.another_gen_server.md)
+
+## [26. Linking Processes](/servy/docs/26.linking_processes.md)
+
+## [27. Fault Recovery with OTP Supervisor](/servy/docs/27.fault_recovery_with_otp_supervisor.md)
+
+## [28. Final OTP Application](/servy/docs/28.final_otp_application.md)
+
+
+
+
+
+
+
+
+
 
 
 

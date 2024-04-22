@@ -1,87 +1,120 @@
+
 defmodule Servy.PledgeServer do
   @name :pledge_server
 
-  ## Server Side run
-  def start do
+  use GenServer
+
+  defmodule State do
+    defstruct cache_size: 3, pledges: []
+  end
+
+  def start_link(_arg) do
     IO.puts "Starting the pledge server..."
-    pid = spawn(__MODULE__, :listen_loop, [[]])
-    ## PID를 :pledge_server로 등록한다.
-    Process.register(pid, @name)
-    pid
+    GenServer.start_link(__MODULE__, %State{}, name: @name)
   end
 
-  def listen_loop(state) do
-    IO.puts "\nWaiting for a message..."
+  ############################
+  # server callbacks
+  ############################
 
-    receive do
-      {sender, :create_pledge, name, amount} ->
-        {:ok, id} = send_pledge_to_servcie(name, amount)
-        ## 기존 state 앞에 새로 생성된 pledge를 추가한다.
-        most_recent_pledges = Enum.take(state, 2)
-        new_state = [ {name, amount} | most_recent_pledges ]
-
-        ## 요청자에게 응답 전송
-        send sender, {:response, id}
-
-        ## 해당 상태를 유지하기 위해, 다시 listen_loop에 해당값을 전달한다.
-        listen_loop(new_state)
-
-      {sender, :recent_pledges} ->
-        send sender, {:response, state}
-        listen_loop(state)
-
-        {sender, :total_pledged} ->
-          total =
-            ## elem은 튜플의 n번째 요소를 가져오는 함수이다. 여기서는 amount를 가져온다.
-            Enum.map(state, &elem(&1, 1))
-            |> Enum.sum
-          send sender, {:response, total}
-          listen_loop(state)
-
-      ## 메세지 박스에 매칭되지 않는 메세지가 계속 쌓이는것을 방지하기 위해 default 절을 추가한다
-      unexpected ->
-        IO.puts "Unexpected messaged: #{inspect unexpected}"
-        listen_loop(state)
-    end
-
+  ## GenServer start될때 호출된다.
+  def init(state) do
+    pledges = fetch_recent_pledges_from_service()
+    new_state = %{state | pledges: pledges}
+    {:ok, new_state}
   end
 
-  ## Client Side run
-  def create_pledge(name, amount) do
-    send @name, {self(), :create_pledge, name, amount}
-
-    receive do {:response, status} -> status end
+  def handle_cast(:clear, state) do
+    {:noreply, %{state | pledges: []}}
   end
 
-  def recent_pledges() do
-    send @name, {self(), :recent_pledges}
-
-    receive do {:response, pledges} -> pledges end
+  def handle_cast({:set_cache_size, size}, state) do
+    new_state = %{ state | cache_size: size}
+    {:noreply, new_state}
   end
 
-  def total_pledges() do
-    send @name, {self(), :total_pledged}
 
-    receive do {:response, total} -> total end
+  def handle_call(:total_pledged, _from, state) do
+    total =
+      ## elem은 튜플의 n번째 요소를 가져오는 함수이다. 여기서는 amount를 가져온다.
+      Enum.map(state.pledges, &elem(&1, 1))
+      |> Enum.sum
+    {:reply, total, state}
+  end
+
+  def handle_call(:recent_pledges, _from, state) do
+    {:reply, state.pledges, state}
+  end
+
+  def handle_call({:create_pledge, name, amount}, _from, state) do
+    {:ok, id} = send_pledge_to_servcie(name, amount)
+    ## 기존 state 앞에 새로 생성된 pledge를 추가한다.
+    most_recent_pledges = Enum.take(state.pledges, state.cache_size - 1)
+    cache_pledges = [ {name, amount} | most_recent_pledges ]
+    new_state = %{ state | pledges: cache_pledges }
+    {:reply, id, new_state}
+  end
+
+  def handle_info(message, state) do
+    IO.puts "Can't touch tihs! #{inspect message}"
+    {:noreply, state}
   end
 
   defp send_pledge_to_servcie(_name, _amount) do
     # code goes here to send pledge to external service
     {:ok, "pledge-#{:rand.uniform(1000)}"}
   end
+
+  ############################
+  ## Client Side run
+  ############################
+  def create_pledge(name, amount) do
+    GenServer.call @name, {:create_pledge, name, amount}
+  end
+
+  def recent_pledges() do
+    GenServer.call @name, :recent_pledges
+  end
+
+  def total_pledges() do
+    GenServer.call @name, :total_pledged
+  end
+
+  def clear do
+    GenServer.cast @name, :clear
+  end
+
+  def set_cache_size(size) do
+    GenServer.cast @name, {:set_cache_size, size}
+  end
+
+  defp fetch_recent_pledges_from_service do
+    # 실제 외부서비스를 이용해서 초기화 한다.
+    # 테스트를 위해 임시로 하드코딩된 결과를 리턴
+    [ {"wilma", 15}, {"fred", 25} ]
+  end
+
 end
 
 
-alias Servy.PledgeServer
+# alias Servy.PledgeServer
 
-PledgeServer.start()
+# {:ok, pid} = PledgeServer.start_link()
 
-IO.inspect PledgeServer.create_pledge("larry", 10)
-IO.inspect PledgeServer.create_pledge("moe", 20)
-IO.inspect PledgeServer.create_pledge("curly", 30)
-IO.inspect PledgeServer.create_pledge("daisy", 40)
-IO.inspect PledgeServer.create_pledge("grace", 50)
+# send pid, {:stop, "hammertime"}
 
-IO.inspect PledgeServer.recent_pledges()
+# PledgeServer.set_cache_size(4)
 
-IO.inspect PledgeServer.total_pledges()
+# IO.inspect PledgeServer.create_pledge("larry", 10)
+# # PledgeServer.clear()
+# # IO.inspect PledgeServer.create_pledge("moe", 20)
+# # IO.inspect PledgeServer.create_pledge("curly", 30)
+# # IO.inspect PledgeServer.create_pledge("daisy", 40)
+
+
+
+# IO.inspect PledgeServer.create_pledge("grace", 50)
+
+# IO.inspect PledgeServer.recent_pledges()
+
+# IO.inspect PledgeServer.total_pledges()
