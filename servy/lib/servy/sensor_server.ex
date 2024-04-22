@@ -1,6 +1,7 @@
 defmodule Servy.SensorServer do
 
   @name :sensor_server
+  @referesh_interval :timer.seconds(5)
 
   use GenServer
 
@@ -18,7 +19,21 @@ defmodule Servy.SensorServer do
 
   def init(_state) do
     initial_state = run_tasks_to_get_sensor_data()
+    # 5초후 refresh 요청 발행
+    schedule_refresh()
     {:ok, initial_state}
+  end
+
+  def handle_info(:refresh, _state) do
+    IO.puts "Refreshing the cache..."
+    new_state = run_tasks_to_get_sensor_data()
+    # 캐쉬 갱신후 다시 갱신 요청 만들기
+    schedule_refresh()
+    {:noreply, new_state}
+  end
+
+  defp schedule_refresh do
+    Process.send_after(self(), :refresh, @referesh_interval)
   end
 
   def handle_call(:get_sensor_data, _from, state) do
