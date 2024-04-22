@@ -51,6 +51,9 @@
 
 ## [25. Another GenServer](/servy/docs/25.another_gen_server.md)
 
+## [26. Linking Processes](/servy/docs/26.linking_processes.md)
+
+
 
 
 

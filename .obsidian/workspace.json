@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/25.another_gen_server.md",
+                "file": "servy/docs/26.linking_processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/25.another_gen_server.md",
+                "file": "servy/docs/26.linking_processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/25.another_gen_server.md",
+                "file": "servy/docs/26.linking_processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/25.another_gen_server.md"
+                "file": "servy/docs/26.linking_processes.md"
               }
             }
           }
@@ -173,9 +173,13 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/24.otp_gen_server.md",
+    "attached/프로세스링크.png",
     "servy/docs/25.another_gen_server.md",
+    "servy/docs/26.linking_processes.md",
     "servy/README.md",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.KickStarter.beam",
+    "servy/lib/servy/kick_starter.ex",
+    "servy/docs/24.otp_gen_server.md",
     "servy/docs/23.refactoring_toward_gen_server.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.State.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
@@ -190,8 +194,6 @@
     "servy/docs/21.asynchronous_tasks.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeController.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Handler.beam",
-    "servy/lib/servy/pledge_server.ex",
-    "servy/lib/servy/pledge_controller.ex",
     "servy/docs/20.sending_and_receiving_messages.md",
     "attached/프로세스간통신.png",
     "servy/docs/19.concurrent_isolated_processes.md",
@@ -216,8 +218,6 @@
     "servy/docs/8.serving_files.md",
     "servy/docs/7.pattern_matching_maps.md",
     "servy/docs/6.advanced_pattern_matching.md",
-    "servy/docs/5.function_clause.md",
-    "servy/docs/4.immutable_data.md",
-    "servy/docs/3.pattern_matching.md"
+    "servy/docs/5.function_clause.md"
   ]
 }
