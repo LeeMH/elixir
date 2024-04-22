@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/27.fault_recovery_with_otp_supervisor.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/27.fault_recovery_with_otp_supervisor.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/27.fault_recovery_with_otp_supervisor.md",
+                "file": "servy/docs/28.final_otp_application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/27.fault_recovery_with_otp_supervisor.md"
+                "file": "servy/docs/28.final_otp_application.md"
               }
             }
           }
@@ -173,27 +173,29 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.Supervisor.beam",
-    "servy/lib/servy/supervisor.ex",
+    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.beam",
+    "servy/lib/servy/servy.ex",
+    "servy/lib/servy.ex",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Inspect.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.IEx.Info.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Encoder.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Enumerable.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Collectable.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.String.Chars.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.List.Chars.beam",
+    "servy/_build/dev/lib/servy/consolidated/Elixir.Poison.Decoder.beam",
+    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
+    "servy/docs/28.final_otp_application.md",
+    "servy/README.md",
+    "README.md",
     "attached/Pasted image 20240422150523.png",
     "servy/docs/1.create_mix_project.md",
-    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
     "attached/프로세스링크 1.png",
     "servy/docs/26.linking_processes.md",
-    "servy/README.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.ServicesSupervisor.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.SensorServer.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.State.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.KickStarter.beam",
-    "servy/lib/servy/services_supervisor.ex",
     "attached/프로세스링크.png",
     "servy/docs/25.another_gen_server.md",
-    "servy/lib/servy/kick_starter.ex",
     "servy/docs/24.otp_gen_server.md",
     "servy/docs/23.refactoring_toward_gen_server.md",
-    "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServerHandRolled.beam",
-    "servy/lib/servy/pledge_server_hand_rolled.ex",
     "attached/코드중복.png",
     "servy/docs/22.stateful_server_processes.md",
     "attached/Pasted image 20240418193522.png",
@@ -216,8 +218,6 @@
     "servy/docs/10.organizing_code.md",
     "servy/docs/11.modeling_with_structs.md",
     "servy/docs/10.organizing_code.md",
-    "servy/docs/9.module_attribute.md",
-    "servy/docs/8.serving_files.md",
-    "servy/docs/7.pattern_matching_maps.md"
+    "servy/docs/9.module_attribute.md"
   ]
 }

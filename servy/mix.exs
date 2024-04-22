@@ -14,7 +14,9 @@ defmodule Servy.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger],
+      # 여기에 명시하면, application 기동시 자동으로 실행된다.
+      mod: {Servy, []},
     ]
   end
 

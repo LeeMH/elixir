@@ -55,6 +55,9 @@
 
 ## [27. Fault Recovery with OTP Supervisor](/servy/docs/27.fault_recovery_with_otp_supervisor.md)
 
+## [28. Final OTP Application](/servy/docs/28.final_otp_application.md)
+
+
 
 
 
