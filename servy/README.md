@@ -53,6 +53,10 @@
 
 ## [26. Linking Processes](/servy/docs/26.linking_processes.md)
 
+## [27. Fault Recovery with OTP Supervisor](/servy/docs/27.fault_recovery_with_otp_supervisor.md)
+
+
+
 
 
 

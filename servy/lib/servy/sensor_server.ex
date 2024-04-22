@@ -9,7 +9,7 @@ defmodule Servy.SensorServer do
 
   def start_link(_arg) do
     IO.puts "Starting the sensor server..."
-    GenServer.start(__MODULE__, %{}, name: @name)
+    GenServer.start_link(__MODULE__, %{}, name: @name)
   end
 
   def get_sensor_data do
