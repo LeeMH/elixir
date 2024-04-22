@@ -9,7 +9,8 @@ defmodule Servy.ServicesSupervisor do
   def init(:ok) do
     children = [
       Servy.PledgeServer,
-      Servy.SensorServer
+      ## 첫번째는 모듈명이고, 두번째가 argument 이다. 자료형은 해당 모듈에 맞는 어떤것이라도 가능하다
+      {Servy.SensorServer, 60}
     ]
 
     Supervisor.init(children, strategy: :one_for_one)
