@@ -49,6 +49,9 @@
 
 ## [24. OTP GenServer](/servy/docs/24.otp_gen_server.md)
 
+## [25. Another GenServer](/servy/docs/25.another_gen_server.md)
+
+
 
 
 

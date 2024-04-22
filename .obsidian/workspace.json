@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servy/docs/24.otp_gen_server.md",
+                "file": "servy/docs/25.another_gen_server.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servy/docs/24.otp_gen_server.md",
+                "file": "servy/docs/25.another_gen_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servy/docs/24.otp_gen_server.md",
+                "file": "servy/docs/25.another_gen_server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servy/docs/24.otp_gen_server.md"
+                "file": "servy/docs/25.another_gen_server.md"
               }
             }
           }
@@ -173,9 +173,10 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/23.refactoring_toward_gen_server.md",
     "servy/docs/24.otp_gen_server.md",
+    "servy/docs/25.another_gen_server.md",
     "servy/README.md",
+    "servy/docs/23.refactoring_toward_gen_server.md",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.State.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServer.beam",
     "servy/_build/dev/lib/servy/ebin/Elixir.Servy.PledgeServerHandRolled.beam",
@@ -217,7 +218,6 @@
     "servy/docs/6.advanced_pattern_matching.md",
     "servy/docs/5.function_clause.md",
     "servy/docs/4.immutable_data.md",
-    "servy/docs/3.pattern_matching.md",
-    "servy/docs/2.high_level_transformation.md"
+    "servy/docs/3.pattern_matching.md"
   ]
 }
