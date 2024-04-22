@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/README.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/README.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/README.md",
+                "file": "live_view_studio/docs/1.project_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/README.md"
+                "file": "live_view_studio/docs/1.project_setup.md"
               }
             }
           }
@@ -171,13 +171,45 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "62e82e9185d8ea14",
+  "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "live_view_studio/docs",
-    "servy/README.md",
+    "servy/docs/1.create_mix_project.md",
+    "live_view_studio/docs/1.project_setup.md",
     "live_view_studio/README.md",
-    "README.md",
-    "servy/docs/28.final_otp_application.md",
+    "servy/README.md",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Inspect.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.IEx.Info.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Phoenix.HTML.Safe.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Jason.Encoder.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Enumerable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.String.Chars.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Collectable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Plug.Exception.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Ecto.Queryable.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Timex.Protocol.beam",
+    "live_view_studio/deps/connection/README.md",
+    "live_view_studio/deps/postgrex/CHANGELOG.md",
+    "live_view_studio/deps/websock/README.md",
+    "live_view_studio/deps/websock_adapter/README.md",
+    "live_view_studio/deps/phoenix_pubsub/README.md",
+    "live_view_studio/deps/phoenix_pubsub/LICENSE.md",
+    "live_view_studio/deps/phoenix_pubsub/CHANGELOG.md",
+    "live_view_studio/deps/ecto/CHANGELOG.md",
+    "live_view_studio/deps/ecto/README.md",
+    "live_view_studio/deps/db_connection/CHANGELOG.md",
+    "live_view_studio/deps/db_connection/README.md",
+    "live_view_studio/deps/file_system/README.md",
+    "live_view_studio/deps/phoenix_template/CHANGELOG.md",
+    "live_view_studio/deps/phoenix_template/LICENSE.md",
+    "live_view_studio/deps/phoenix_template/README.md",
+    "live_view_studio/deps/hpax/CHANGELOG.md",
+    "live_view_studio/deps/hpax/README.md",
+    "live_view_studio/deps/nimble_pool/CHANGELOG.md",
+    "live_view_studio/deps/nimble_pool/README.md",
+    "live_view_studio/deps/nimble_options/CHANGELOG.md",
+    "live_view_studio/deps/nimble_options/LICENSE.md",
+    "live_view_studio/deps/nimble_options/README.md",
+    "live_view_studio/deps/phoenix/priv/static/phoenix.png",
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-mark.svg",
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wrench-screwdriver.svg",
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-circle.svg",
@@ -186,38 +218,6 @@
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wifi.svg",
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wallet.svg",
     "live_view_studio/assets/vendor/heroicons/optimized/24/solid/viewfinder-circle.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/view-columns.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/video-camera.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/outline",
-    "live_view_studio/assets/vendor/heroicons/optimized/20/solid",
-    "live_view_studio/priv/gettext/en/LC_MESSAGES/errors.po",
-    "live_view_studio/lib/live_view_studio_web/components/layouts/root.html.heex",
-    "live_view_studio/lib/live_view_studio_web/components/layouts/app.html.heex",
-    "live_view_studio/lib/live_view_studio_web/controllers/page_html/home.html.heex",
-    "live_view_studio/assets/vendor/heroicons/optimized/24",
-    "live_view_studio/assets/vendor/heroicons/optimized/20",
-    "live_view_studio/test/support/fixtures/servers_fixtures.ex",
-    "live_view_studio/assets/vendor/heroicons/UPGRADE.md",
-    "live_view_studio/assets/vendor/heroicons/LICENSE.md",
-    "servy/docs/27.fault_recovery_with_otp_supervisor.md",
-    "servy/docs/1.create_mix_project.md",
-    "servy/docs/26.linking_processes.md",
-    "servy/docs/25.another_gen_server.md",
-    "servy/docs/24.otp_gen_server.md",
-    "servy/docs/23.refactoring_toward_gen_server.md",
-    "servy/docs/22.stateful_server_processes.md",
-    "servy/docs/21.asynchronous_tasks.md",
-    "servy/docs/20.sending_and_receiving_messages.md",
-    "servy/docs/19.concurrent_isolated_processes.md",
-    "servy/docs/18.web_server_sockets.md",
-    "servy/docs/17.rendering_json.md",
-    "servy/docs/16.test_automation.md",
-    "servy/deps/poison/README.md",
-    "servy/docs/15.comprehensions.md",
-    "servy/docs/14.slicing_and_dicing_with_enum.md",
-    "servy/docs/13.recursion.md",
-    "servy/docs/12.matching_heads_and_tails.md",
-    "servy/docs/10.organizing_code.md"
+    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/view-columns.svg"
   ]
 }
