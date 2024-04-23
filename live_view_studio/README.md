@@ -5,3 +5,6 @@
 
 ## [2. Button Clicks](/live_view_studio/docs/2.button_clicks.md)
 
+## [3. LiveView Life Cycle](/live_view_studio/docs/3.live_view_life_cycle.md)
+
+
