@@ -11,6 +11,9 @@
 
 ## [5. Dashboard](/live_view_studio/docs/5.dashboard.md)
 
+## [6. Search](/live_view_studio/docs/6.search.md)
+
+
 
 
 
