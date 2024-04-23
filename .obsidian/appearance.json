@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "system",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "D2Coding ligature,HY견고딕"
 }
