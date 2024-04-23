@@ -2,3 +2,6 @@
 
 
 ## [1. Project Setup](/live_view_studio/docs/1.project_setup.md)
+
+## [2. Button Clicks](/live_view_studio/docs/2.button_clicks.md)
+
