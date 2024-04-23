@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/2.button_clicks.md",
+                "file": "live_view_studio/docs/4.dynamic_form.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/2.button_clicks.md",
+                "file": "live_view_studio/docs/4.dynamic_form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/2.button_clicks.md",
+                "file": "live_view_studio/docs/4.dynamic_form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/2.button_clicks.md"
+                "file": "live_view_studio/docs/4.dynamic_form.md"
               }
             }
           }
@@ -171,19 +171,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9adcadaf4a497ba9",
+  "active": "62e82e9185d8ea14",
   "lastOpenFiles": [
-    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.SandboxLive.beam",
-    "live_view_studio/docs/1.project_setup.md",
     "live_view_studio/docs/2.button_clicks.md",
     "live_view_studio/docs/3.live_view_life_cycle.md",
+    "live_view_studio/docs/4.dynamic_form.md",
+    "attached/Pasted image 20240423143250.png",
+    "live_view_studio/README.md",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.SandboxLive.beam",
+    "live_view_studio/docs/1.project_setup.md",
     "attached/송수신상세 1.png",
     "attached/송수신상세.png",
     "attached/websocket송수신.png",
     "attached/Pasted image 20240423120457.png",
     "attached/Pasted image 20240423120453.png",
     "attached/Pasted image 20240423120447.png",
-    "live_view_studio/README.md",
     "attached/Pasted image 20240423111346.png",
     "attached/Pasted image 20240423111342.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.LightLive.beam",
@@ -197,7 +199,6 @@
     "live_view_studio/deps/tzdata/priv/tmp_downloads/451270_10907437/leapseconds.awk",
     "live_view_studio/deps/tzdata/priv/tmp_downloads/451270_10907437/checktab.awk",
     "live_view_studio/deps/tzdata/priv/tmp_downloads/451270_10907437/checknow.awk",
-    "live_view_studio/deps/tzdata/priv/tmp_downloads/451270_10907437/checklinks.awk",
     "servy/docs/1.create_mix_project.md",
     "live_view_studio/deps/connection/README.md",
     "live_view_studio/deps/postgrex/CHANGELOG.md",
@@ -216,8 +217,6 @@
     "live_view_studio/deps/phoenix_template/README.md",
     "live_view_studio/deps/hpax/CHANGELOG.md",
     "live_view_studio/deps/hpax/README.md",
-    "live_view_studio/deps/nimble_pool/CHANGELOG.md",
-    "live_view_studio/deps/phoenix/priv/static/phoenix.png",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-mark.svg"
+    "live_view_studio/deps/phoenix/priv/static/phoenix.png"
   ]
 }
