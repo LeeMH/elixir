@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/4.dynamic_form.md",
+                "file": "live_view_studio/docs/3.live_view_life_cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/4.dynamic_form.md",
+                "file": "live_view_studio/docs/3.live_view_life_cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/4.dynamic_form.md",
+                "file": "live_view_studio/docs/3.live_view_life_cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/4.dynamic_form.md"
+                "file": "live_view_studio/docs/3.live_view_life_cycle.md"
               }
             }
           }
@@ -171,13 +171,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "62e82e9185d8ea14",
+  "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/docs/5.dashboard.md",
+    "live_view_studio/docs/4.dynamic_form.md",
+    "live_view_studio/README.md",
     "live_view_studio/docs/2.button_clicks.md",
     "live_view_studio/docs/3.live_view_life_cycle.md",
-    "live_view_studio/docs/4.dynamic_form.md",
     "attached/Pasted image 20240423143250.png",
-    "live_view_studio/README.md",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.SandboxLive.beam",
     "live_view_studio/docs/1.project_setup.md",
     "attached/송수신상세 1.png",

@@ -9,5 +9,8 @@
 
 ## [4. Dynamic Form](/live_view_studio/docs/4.dynamic_form.md)
 
+## [5. Dashboard](/live_view_studio/docs/5.dashboard.md)
+
+
 
 
