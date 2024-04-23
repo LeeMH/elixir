@@ -13,6 +13,9 @@
 
 ## [6. Search](/live_view_studio/docs/6.search.md)
 
+## [7. Autocomplete](/live_view_studio/docs/7.autocomplete.md)
+
+
 
 
 
