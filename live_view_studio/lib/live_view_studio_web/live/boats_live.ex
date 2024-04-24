@@ -10,7 +10,8 @@ defmodule LiveViewStudioWeb.BoatsLive do
         boats: Boats.list_boats()
       )
 
-    {:ok, socket}
+    ## boats는 렌더링이 종료되면 empty list로 처리한다
+    {:ok, socket, temporary_assign: [boats: []]}
   end
 
   def render(assigns) do
