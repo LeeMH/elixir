@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/7.autocomplete.md",
+                "file": "live_view_studio/docs/8.filtering.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/7.autocomplete.md",
+                "file": "live_view_studio/docs/8.filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/7.autocomplete.md",
+                "file": "live_view_studio/docs/8.filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/7.autocomplete.md"
+                "file": "live_view_studio/docs/8.filtering.md"
               }
             }
           }
@@ -173,10 +173,13 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/Pasted image 20240424123411.png",
+    "attached/Pasted image 20240424122500.png",
+    "live_view_studio/docs/7.autocomplete.md",
+    "live_view_studio/docs/8.filtering.md",
+    "live_view_studio/README.md",
     "attached/Pasted image 20240423163701.png",
     "live_view_studio/docs/6.search.md",
-    "live_view_studio/docs/7.autocomplete.md",
-    "live_view_studio/README.md",
     "attached/Pasted image 20240423155157.png",
     "live_view_studio/docs/5.dashboard.md",
     "attached/Pasted image 20240423150955.png",
@@ -191,8 +194,6 @@
     "attached/websocket송수신.png",
     "attached/Pasted image 20240423120457.png",
     "attached/Pasted image 20240423120453.png",
-    "attached/Pasted image 20240423120447.png",
-    "attached/Pasted image 20240423111346.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.LightLive.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.Router.beam",
     "servy/README.md",
@@ -217,7 +218,6 @@
     "live_view_studio/deps/db_connection/CHANGELOG.md",
     "live_view_studio/deps/db_connection/README.md",
     "live_view_studio/deps/file_system/README.md",
-    "live_view_studio/deps/phoenix_template/CHANGELOG.md",
-    "live_view_studio/deps/phoenix_template/LICENSE.md"
+    "live_view_studio/deps/phoenix_template/CHANGELOG.md"
   ]
 }

@@ -15,6 +15,9 @@
 
 ## [7. Autocomplete](/live_view_studio/docs/7.autocomplete.md)
 
+## [8. Filtering](/live_view_studio/docs/8.filtering.md)
+
+
 
 
 
