@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.BoatsLive.beam",
     "attached/Pasted image 20240424144522.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.Car.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.beam",
@@ -202,7 +203,6 @@
     "attached/송수신상세 1.png",
     "attached/송수신상세.png",
     "attached/websocket송수신.png",
-    "attached/Pasted image 20240423120457.png",
     "servy/README.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/1.create_mix_project.md",
