@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/1.project_setup.md",
+                "file": "live_view_studio/docs/10.live_navigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/1.project_setup.md",
+                "file": "live_view_studio/docs/10.live_navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/1.project_setup.md",
+                "file": "live_view_studio/docs/10.live_navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/1.project_setup.md"
+                "file": "live_view_studio/docs/10.live_navigation.md"
               }
             }
           }
@@ -173,20 +173,40 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "servy/docs/1.create_mix_project.md",
-    "live_view_studio/docs/1.project_setup.md",
+    "live_view_studio/docs/9.function_components.md",
+    "live_view_studio/docs/10.live_navigation.md",
     "live_view_studio/README.md",
+    "live_view_studio/docs/1.project_setup.md",
+    "live_view_studio/docs/2.button_clicks.md",
+    "live_view_studio/docs/3.live_view_life_cycle.md",
+    "live_view_studio/docs/4.dynamic_form.md",
+    "live_view_studio/docs/5.dashboard.md",
+    "live_view_studio/docs/6.search.md",
+    "live_view_studio/docs/7.autocomplete.md",
+    "live_view_studio/docs/8.filtering.md",
+    "attached/Pasted image 20240425115637.png",
+    "attached/Pasted image 20240425115633.png",
+    "attached/Pasted image 20240425115350.png",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.CustomComponents.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.BoatsLive.beam",
+    "live_view_studio/lib/live_view_studio_web/components/custom_components.ex",
+    "attached/Pasted image 20240424144522.png",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.Car.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.Boat.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.beam",
+    "live_view_studio/test/support/fixtures/cars_fixtures.ex",
+    "live_view_studio/test/live_view_studio/cars_test.exs",
+    "live_view_studio/lib/live_view_studio/cars.ex",
+    "attached/Pasted image 20240424123411.png",
+    "attached/Pasted image 20240424122500.png",
+    "attached/Pasted image 20240423163701.png",
+    "attached/Pasted image 20240423155157.png",
+    "attached/Pasted image 20240423150955.png",
+    "attached/Pasted image 20240423143250.png",
     "servy/README.md",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Inspect.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.IEx.Info.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Phoenix.HTML.Safe.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Jason.Encoder.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Enumerable.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.String.Chars.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Collectable.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Plug.Exception.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Ecto.Queryable.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Timex.Protocol.beam",
+    "servy/docs/10.organizing_code.md",
+    "servy/docs/1.create_mix_project.md",
     "live_view_studio/deps/connection/README.md",
     "live_view_studio/deps/postgrex/CHANGELOG.md",
     "live_view_studio/deps/websock/README.md",
@@ -198,26 +218,6 @@
     "live_view_studio/deps/ecto/README.md",
     "live_view_studio/deps/db_connection/CHANGELOG.md",
     "live_view_studio/deps/db_connection/README.md",
-    "live_view_studio/deps/file_system/README.md",
-    "live_view_studio/deps/phoenix_template/CHANGELOG.md",
-    "live_view_studio/deps/phoenix_template/LICENSE.md",
-    "live_view_studio/deps/phoenix_template/README.md",
-    "live_view_studio/deps/hpax/CHANGELOG.md",
-    "live_view_studio/deps/hpax/README.md",
-    "live_view_studio/deps/nimble_pool/CHANGELOG.md",
-    "live_view_studio/deps/nimble_pool/README.md",
-    "live_view_studio/deps/nimble_options/CHANGELOG.md",
-    "live_view_studio/deps/nimble_options/LICENSE.md",
-    "live_view_studio/deps/nimble_options/README.md",
-    "live_view_studio/deps/phoenix/priv/static/phoenix.png",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-mark.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wrench-screwdriver.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/x-circle.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wrench.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/window.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wifi.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/wallet.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/viewfinder-circle.svg",
-    "live_view_studio/assets/vendor/heroicons/optimized/24/solid/view-columns.svg"
+    "live_view_studio/deps/file_system/README.md"
   ]
 }
