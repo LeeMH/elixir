@@ -17,7 +17,9 @@ defmodule LiveViewStudioWeb.BoatsLive do
   def render(assigns) do
     ~H"""
     <h1>Daily Boat Rentals</h1>
-    <.promo />
+    <.promo>
+      Save 25% Deal!
+    </.promo>
     <div id="boats">
       <form phx-change="filter">
         <div class="filters">
@@ -62,7 +64,9 @@ defmodule LiveViewStudioWeb.BoatsLive do
       </div>
     </div>
 
-    <.promo />
+    <.promo>
+      Hurry up!. Only 1 left.
+    </.promo>
     """
   end
 
@@ -70,7 +74,7 @@ defmodule LiveViewStudioWeb.BoatsLive do
     ~H"""
     <div class="promo">
       <div class="deal">
-        Save 25% on rentals!
+        <%= render_slot(@inner_block) %>
       </div>
     </div>
     """

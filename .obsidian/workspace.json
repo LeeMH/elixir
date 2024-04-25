@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/8.filtering.md",
+                "file": "live_view_studio/docs/9.function_components.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/8.filtering.md",
+                "file": "live_view_studio/docs/9.function_components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/8.filtering.md",
+                "file": "live_view_studio/docs/9.function_components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/8.filtering.md"
+                "file": "live_view_studio/docs/9.function_components.md"
               }
             }
           }
@@ -174,6 +174,9 @@
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.BoatsLive.beam",
+    "live_view_studio/docs/8.filtering.md",
+    "live_view_studio/docs/9.function_components.md",
+    "live_view_studio/README.md",
     "attached/Pasted image 20240424144522.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.Car.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.beam",
@@ -184,12 +187,9 @@
     "live_view_studio/lib/live_view_studio/cars.ex",
     "live_view_studio/priv/repo/migrations/20240424050655_create_cars.exs",
     "live_view_studio/lib/live_view_studio/cars/car.ex",
-    "live_view_studio/lib/live_view_studio/cars",
     "attached/Pasted image 20240424123411.png",
     "attached/Pasted image 20240424122500.png",
     "live_view_studio/docs/7.autocomplete.md",
-    "live_view_studio/docs/8.filtering.md",
-    "live_view_studio/README.md",
     "attached/Pasted image 20240423163701.png",
     "live_view_studio/docs/6.search.md",
     "attached/Pasted image 20240423155157.png",
@@ -217,7 +217,6 @@
     "live_view_studio/deps/ecto/README.md",
     "live_view_studio/deps/db_connection/CHANGELOG.md",
     "live_view_studio/deps/db_connection/README.md",
-    "live_view_studio/deps/file_system/README.md",
-    "live_view_studio/deps/phoenix_template/CHANGELOG.md"
+    "live_view_studio/deps/file_system/README.md"
   ]
 }

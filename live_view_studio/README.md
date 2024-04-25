@@ -17,6 +17,9 @@
 
 ## [8. Filtering](/live_view_studio/docs/8.filtering.md)
 
+## [9. Function Components](/live_view_studio/docs/9.function_components.md)
+
+
 
 
 
