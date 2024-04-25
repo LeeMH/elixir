@@ -37,14 +37,14 @@ defmodule LiveViewStudioWeb.ServersLive do
       <div class="sidebar">
         <div class="nav">
           <!-- href={~p"/servers?id=#{server.id}"} 같은 표현임 -->
-          <a
+          <.link
             :for={server <- @servers}
-            href={~p"/servers?#{[id: server]}"}
+            patch={~p"/servers?#{[id: server]}"}
             class={if server == @selected_server, do: "selected"}
           >
             <span class={server.status}></span>
             <%= server.name %>
-          </a>
+          </.link>
         </div>
         <div class="coffees">
           <button phx-click="drink">
