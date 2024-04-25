@@ -19,6 +19,9 @@
 
 ## [9. Function Components](/live_view_studio/docs/9.function_components.md)
 
+## [10. Live Navigation](/live_view_studio/docs/10.live_navigation.md)
+
+
 
 
 
