@@ -11,12 +11,17 @@ defmodule LiveViewStudioWeb.BoatsLive do
       )
 
     ## boats는 렌더링이 종료되면 empty list로 처리한다
-    {:ok, socket, temporary_assign: [boats: []]}
+    {:ok, socket, temporary_assigns: [boats: []]}
   end
 
   def render(assigns) do
     ~H"""
     <h1>Daily Boat Rentals</h1>
+    <div class="promo">
+      <div class="deal">
+        Save 25% on rentals!
+      </div>
+    </div>
     <div id="boats">
       <form phx-change="filter">
         <div class="filters">
