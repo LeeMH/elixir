@@ -80,7 +80,11 @@ defmodule LiveViewStudioWeb.ServersLive do
               </blockquote>
             </div>
           </div>
-          <div class="links"></div>
+          <div class="links">
+            <.link navigate={~p"/light"}>
+              Adjust Lights
+            </.link>
+          </div>
         </div>
       </div>
     </div>
