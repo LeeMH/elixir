@@ -12,7 +12,7 @@ defmodule LiveViewStudioWeb.DonationsLive do
     #     donations: donations
     #   )
 
-    {:ok, socket}
+    {:ok, socket, temporary_assigns: [donations: []]}
   end
 
   def handle_params(params, _uri, socket) do
@@ -32,6 +32,16 @@ defmodule LiveViewStudioWeb.DonationsLive do
       )
 
     {:noreply, socket}
+  end
+
+  def sort_link(assigns) do
+    ~H"""
+    <.link patch={
+      ~p"/donations?#{%{sort_by: @sort_by, sort_order: next_sort_order(@options.sort_order)}}"
+    }>
+      <%= render_slot(@inner_block) %>
+    </.link>
+    """
   end
 
   defp next_sort_order(sort_order) do

@@ -21,6 +21,8 @@
 
 ## [10. Live Navigation](/live_view_studio/docs/10.live_navigation.md)
 
+## [11. Sorting](/live_view_studio/docs/11.sorting.md)
+
 
 
 
