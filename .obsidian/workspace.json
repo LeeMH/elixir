@@ -173,8 +173,8 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.FlightsLive.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.DonationsLive.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.FlightsLive.beam",
     "attached/Pasted image 20240426112258.png",
     "live_view_studio/docs/8.filtering.md",
     "live_view_studio/docs/10.live_navigation.md",

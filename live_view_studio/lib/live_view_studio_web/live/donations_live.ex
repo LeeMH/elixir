@@ -59,6 +59,15 @@ defmodule LiveViewStudioWeb.DonationsLive do
     """
   end
 
+  def handle_event("select-per-page", %{"per-page" => per_page}, socket) do
+    IO.puts "select-per-page 함수 들어옴!!!"
+    params = %{socket.assigns.options | per_page: per_page}
+
+    socket = push_patch(socket, to: ~p"/donations?#{params}")
+
+    {:noreply, socket}
+  end
+
   defp next_sort_order(sort_order) do
     case sort_order do
       :asc -> :desc

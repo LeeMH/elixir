@@ -1,5 +1,14 @@
 <h1>Food Bank Donations</h1>
 <div id="donations">
+  <form name="per-page" phx-change="select-per-page">
+    <select name="per-page">
+      <%= Phoenix.HTML.Form.options_for_select(
+        [5, 10, 15, 20],
+        @options.per_page
+      ) %>
+    </select>
+    <lable for="per page">per-page</lable>
+  </form>
   <div class="wrapper">
     <table>
       <thead>
