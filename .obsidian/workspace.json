@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.DonationsLive.beam",
     "live_view_studio/docs/9.function_components.md",
     "live_view_studio/docs/10.live_navigation.md",
     "live_view_studio/README.md",
@@ -217,7 +218,6 @@
     "live_view_studio/deps/ecto/CHANGELOG.md",
     "live_view_studio/deps/ecto/README.md",
     "live_view_studio/deps/db_connection/CHANGELOG.md",
-    "live_view_studio/deps/db_connection/README.md",
-    "live_view_studio/deps/file_system/README.md"
+    "live_view_studio/deps/db_connection/README.md"
   ]
 }
