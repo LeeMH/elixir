@@ -23,6 +23,9 @@
 
 ## [11. Sorting](/live_view_studio/docs/11.sorting.md)
 
+## [12. Pagination](/live_view_studio/docs/12.pagination.md)
+
+
 
 
 

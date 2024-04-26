@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/11.sorting.md",
+                "file": "live_view_studio/docs/12.pagination.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/11.sorting.md",
+                "file": "live_view_studio/docs/12.pagination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/11.sorting.md",
+                "file": "live_view_studio/docs/12.pagination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/11.sorting.md"
+                "file": "live_view_studio/docs/12.pagination.md"
               }
             }
           }
@@ -173,21 +173,24 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/Pasted image 20240426143800.png",
+    "live_view_studio/docs/11.sorting.md",
+    "live_view_studio/docs/9.function_components.md",
+    "live_view_studio/docs/12.pagination.md",
+    "attached/Pasted image 20240426141351.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.DonationsLive.beam",
+    "live_view_studio/README.md",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.FlightsLive.beam",
     "attached/Pasted image 20240426112258.png",
     "live_view_studio/docs/8.filtering.md",
     "live_view_studio/docs/10.live_navigation.md",
-    "live_view_studio/docs/9.function_components.md",
     "live_view_studio/docs/7.autocomplete.md",
     "live_view_studio/docs/6.search.md",
     "live_view_studio/docs/5.dashboard.md",
     "live_view_studio/docs/4.dynamic_form.md",
     "live_view_studio/docs/3.live_view_life_cycle.md",
-    "live_view_studio/docs/11.sorting.md",
     "attached/Pasted image 20240426105828.png",
     "attached/Pasted image 20240426105635.png",
-    "live_view_studio/README.md",
     "live_view_studio/docs/1.project_setup.md",
     "live_view_studio/docs/2.button_clicks.md",
     "attached/Pasted image 20240425115637.png",
@@ -202,10 +205,8 @@
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.Boat.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.beam",
     "live_view_studio/test/support/fixtures/cars_fixtures.ex",
-    "live_view_studio/test/live_view_studio/cars_test.exs",
     "attached/Pasted image 20240424123411.png",
     "attached/Pasted image 20240424122500.png",
-    "attached/Pasted image 20240423163701.png",
     "servy/README.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/1.create_mix_project.md",
@@ -217,7 +218,6 @@
     "live_view_studio/deps/phoenix_pubsub/LICENSE.md",
     "live_view_studio/deps/phoenix_pubsub/CHANGELOG.md",
     "live_view_studio/deps/ecto/CHANGELOG.md",
-    "live_view_studio/deps/ecto/README.md",
-    "live_view_studio/deps/db_connection/CHANGELOG.md"
+    "live_view_studio/deps/ecto/README.md"
   ]
 }
