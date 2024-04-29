@@ -29,6 +29,9 @@
 
 ## [14. Live Validations](/live_view_studio/docs/14.live_validations.md)
 
+## [15. Streams](/live_view_studio/docs/15.streams.md)
+
+
 
 
 
