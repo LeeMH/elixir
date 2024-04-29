@@ -31,6 +31,9 @@
 
 ## [15. Streams](/live_view_studio/docs/15.streams.md)
 
+## [16. Toggling State](/live_view_studio/docs/16.toggling_state.md)
+
+
 
 
 

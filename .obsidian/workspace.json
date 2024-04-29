@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/15.streams.md",
+                "file": "live_view_studio/docs/16.toggling_state.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/15.streams.md",
+                "file": "live_view_studio/docs/16.toggling_state.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/15.streams.md",
+                "file": "live_view_studio/docs/16.toggling_state.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/15.streams.md"
+                "file": "live_view_studio/docs/16.toggling_state.md"
               }
             }
           }
@@ -173,6 +173,10 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/Pasted image 20240429155942.png",
+    "live_view_studio/docs/15.streams.md",
+    "live_view_studio/docs/16.toggling_state.md",
+    "live_view_studio/README.md",
     "live_view_studio/docs/8.filtering.md",
     "live_view_studio/docs/7.autocomplete.md",
     "live_view_studio/docs/6.search.md",
@@ -180,9 +184,7 @@
     "live_view_studio/docs/4.dynamic_form.md",
     "live_view_studio/docs/3.live_view_life_cycle.md",
     "live_view_studio/docs/2.button_clicks.md",
-    "live_view_studio/docs/15.streams.md",
     "live_view_studio/docs/14.live_validations.md",
-    "live_view_studio/README.md",
     "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
     "live_view_studio/docs/13.live_validations.md",
     "attached/Pasted image 20240429122121.png",
@@ -216,8 +218,6 @@
     "live_view_studio/deps/connection/README.md",
     "live_view_studio/deps/postgrex/CHANGELOG.md",
     "live_view_studio/deps/websock/README.md",
-    "live_view_studio/deps/websock_adapter/README.md",
-    "live_view_studio/deps/phoenix_pubsub/README.md",
-    "live_view_studio/deps/phoenix_pubsub/LICENSE.md"
+    "live_view_studio/deps/websock_adapter/README.md"
   ]
 }
