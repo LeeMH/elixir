@@ -23,8 +23,8 @@ defmodule LiveViewStudioWeb.VolunteersLive do
     <h1>Volunteer Check-In</h1>
     <div id="volunteer-checkin">
       <.form for={@form} phx-submit="save" phx-change="validate">
-        <.input field={@form[:name]} placeholder="Name" autocomplete="off" />
-        <.input field={@form[:phone]} type="tel" placeholder="Phone" autocomplete="off" />
+        <.input field={@form[:name]} placeholder="Name" autocomplete="off" phx-debounce="2000"/>
+        <.input field={@form[:phone]} type="tel" placeholder="Phone" autocomplete="off" phx-debounce="blur"/>
         <.button phx-disable-with="Saving...">
           Check In
         </.button>
