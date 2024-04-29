@@ -173,6 +173,7 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteersLive.beam",
     "attached/Pasted image 20240429155942.png",
     "live_view_studio/docs/15.streams.md",
     "live_view_studio/docs/16.toggling_state.md",
@@ -206,7 +207,6 @@
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.CustomComponents.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.BoatsLive.beam",
     "live_view_studio/lib/live_view_studio_web/components/custom_components.ex",
-    "attached/Pasted image 20240424144522.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.Car.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.Boat.beam",

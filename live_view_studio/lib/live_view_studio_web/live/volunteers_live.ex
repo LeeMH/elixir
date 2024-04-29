@@ -32,23 +32,32 @@ defmodule LiveViewStudioWeb.VolunteersLive do
         <%#= inspect(@form, pretty: true) %>
       </pre>
       <div id="volunteers" phx-update="stream">
-        <div
+        <.volunteer
           :for={{volunteer_id, volunteer} <- @streams.volunteers}
-          class={"volunteer #{if volunteer.checked_out, do: "out"}"}
+          volunteer={volunteer}
           id={volunteer_id}
-        >
-          <div class="name">
-            <%= volunteer.name %>
-          </div>
-          <div class="phone">
-            <%= volunteer.phone %>
-          </div>
-          <div class="status" phx-click="toggle-status" phx-value-id={volunteer.id}>
-            <button>
-              <%= if volunteer.checked_out, do: "Check In", else: "Check Out" %>
-            </button>
-          </div>
-        </div>
+        />
+      </div>
+    </div>
+    """
+  end
+
+  def volunteer(assigns) do
+    ~H"""
+    <div
+      class={"volunteer #{if @volunteer.checked_out, do: "out"}"}
+      id={@id}
+    >
+      <div class="name">
+        <%= @volunteer.name %>
+      </div>
+      <div class="phone">
+        <%= @volunteer.phone %>
+      </div>
+      <div class="status" phx-click="toggle-status" phx-value-id={@volunteer.id}>
+        <button>
+          <%= if @volunteer.checked_out, do: "Check In", else: "Check Out" %>
+        </button>
       </div>
     </div>
     """
