@@ -21,13 +21,7 @@ defmodule LiveViewStudioWeb.VolunteersLive do
     ~H"""
     <h1>Volunteer Check-In</h1>
     <div id="volunteer-checkin">
-      <.form for={@form} phx-submit="save" phx-change="validate">
-        <.input field={@form[:name]} placeholder="Name" autocomplete="off" phx-debounce="2000"/>
-        <.input field={@form[:phone]} type="tel" placeholder="Phone" autocomplete="off" phx-debounce="blur"/>
-        <.button phx-disable-with="Saving...">
-          Check In
-        </.button>
-      </.form>
+      <.volunteer_form form={@form} />
       <pre>
         <%#= inspect(@form, pretty: true) %>
       </pre>
@@ -39,6 +33,18 @@ defmodule LiveViewStudioWeb.VolunteersLive do
         />
       </div>
     </div>
+    """
+  end
+
+  def volunteer_form(assigns) do
+    ~H"""
+    <.form for={@form} phx-submit="save" phx-change="validate">
+      <.input field={@form[:name]} placeholder="Name" autocomplete="off" phx-debounce="2000"/>
+      <.input field={@form[:phone]} type="tel" placeholder="Phone" autocomplete="off" phx-debounce="blur"/>
+      <.button phx-disable-with="Saving...">
+        Check In
+      </.button>
+    </.form>
     """
   end
 
