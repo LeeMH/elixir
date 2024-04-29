@@ -174,6 +174,8 @@
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteersLive.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteerFormComponent.beam",
+    "live_view_studio/lib/live_view_studio_web/live/volunteer_form_component.ex",
     "attached/Pasted image 20240429155942.png",
     "live_view_studio/docs/15.streams.md",
     "live_view_studio/docs/16.toggling_state.md",
@@ -210,8 +212,6 @@
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.Car.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Cars.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.Boat.beam",
-    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.beam",
-    "live_view_studio/test/support/fixtures/cars_fixtures.ex",
     "servy/README.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/1.create_mix_project.md",
