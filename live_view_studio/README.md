@@ -25,6 +25,9 @@
 
 ## [12. Pagination](/live_view_studio/docs/12.pagination.md)
 
+## [13. Live Ecto Forms and Lists](/live_view_studio/docs/13.live_ecto_forms_and_lists.md)
+
+
 
 
 
