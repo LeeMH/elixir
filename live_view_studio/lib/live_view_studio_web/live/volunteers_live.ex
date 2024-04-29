@@ -10,10 +10,9 @@ defmodule LiveViewStudioWeb.VolunteersLive do
     changeset = Volunteers.change_volunteer(%Volunteer{})
 
     socket =
-      assign(socket,
-        volunteers: volunteers,
-        form: to_form(changeset)
-      )
+      socket
+      |> assign(:volunteers, volunteers)
+      |> assign(:form, to_form(changeset))
 
     {:ok, socket}
   end
@@ -30,7 +29,7 @@ defmodule LiveViewStudioWeb.VolunteersLive do
         </.button>
       </.form>
       <pre>
-        <%= inspect(@form, pretty: true) %>
+        <%#= inspect(@form, pretty: true) %>
       </pre>
       <div
         :for={volunteer <- @volunteers}
