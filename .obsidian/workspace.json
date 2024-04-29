@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
+                "file": "live_view_studio/docs/14.live_validations.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
+                "file": "live_view_studio/docs/14.live_validations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
+                "file": "live_view_studio/docs/14.live_validations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/13.live_ecto_forms_and_lists.md"
+                "file": "live_view_studio/docs/14.live_validations.md"
               }
             }
           }
@@ -173,10 +173,12 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/docs/13.live_validations.md",
+    "live_view_studio/docs/14.live_validations.md",
+    "live_view_studio/README.md",
+    "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
     "attached/Pasted image 20240429122121.png",
     "live_view_studio/docs/12.pagination.md",
-    "live_view_studio/docs/13.live_ecto_forms_and_lists.md",
-    "live_view_studio/README.md",
     "attached/Pasted image 20240426143800.png",
     "live_view_studio/docs/11.sorting.md",
     "live_view_studio/docs/9.function_components.md",
@@ -207,7 +209,6 @@
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.Boat.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudio.Boats.beam",
     "live_view_studio/test/support/fixtures/cars_fixtures.ex",
-    "attached/Pasted image 20240424123411.png",
     "servy/README.md",
     "servy/docs/10.organizing_code.md",
     "servy/docs/1.create_mix_project.md",
@@ -217,7 +218,6 @@
     "live_view_studio/deps/websock_adapter/README.md",
     "live_view_studio/deps/phoenix_pubsub/README.md",
     "live_view_studio/deps/phoenix_pubsub/LICENSE.md",
-    "live_view_studio/deps/phoenix_pubsub/CHANGELOG.md",
-    "live_view_studio/deps/ecto/CHANGELOG.md"
+    "live_view_studio/deps/phoenix_pubsub/CHANGELOG.md"
   ]
 }

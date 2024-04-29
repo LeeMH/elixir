@@ -27,6 +27,9 @@
 
 ## [13. Live Ecto Forms and Lists](/live_view_studio/docs/13.live_ecto_forms_and_lists.md)
 
+## [14. Live Validations](/live_view_studio/docs/14.live_validations.md)
+
+
 
 
 
