@@ -1,8 +1,6 @@
 defmodule LiveViewStudioWeb.TopSecretLive do
   use LiveViewStudioWeb, :live_view
 
-  # hook invoked both the disconnected and connected mounts
-  on_mount {LiveViewStudioWeb.UserAuth, :ensure_authenticated}
 
   def mount(_params, _session, socket) do
     {:ok, socket}
