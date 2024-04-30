@@ -1,6 +1,7 @@
 defmodule LiveViewStudioWeb.TopSecretLive do
   use LiveViewStudioWeb, :live_view
 
+
   def mount(_params, _session, socket) do
     {:ok, socket}
   end
@@ -12,7 +13,7 @@ defmodule LiveViewStudioWeb.TopSecretLive do
       <div class="mission">
         <h1>Top Secret</h1>
         <h2>Your Mission</h2>
-        <h3>(spy number here)</h3>
+        <h3><%= @current_user.id %></h3>
         <p>
           Storm the castle and capture 3 bottles of Elixir.
         </p>

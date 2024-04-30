@@ -48,7 +48,6 @@ defmodule LiveViewStudioWeb.FlightsLive do
 
       <div class="flights">
         <ul>
-          <!--<%= for flight <- @flights do %>-->
             <li :for={flight <- @flights}>
               <div class="first-line">
                 <div class="number">
@@ -67,7 +66,6 @@ defmodule LiveViewStudioWeb.FlightsLive do
                 </div>
               </div>
             </li>
-          <!--<% end %>-->
         </ul>
       </div>
     </div>

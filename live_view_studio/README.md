@@ -21,6 +21,33 @@
 
 ## [10. Live Navigation](/live_view_studio/docs/10.live_navigation.md)
 
+## [11. Sorting](/live_view_studio/docs/11.sorting.md)
+
+## [12. Pagination](/live_view_studio/docs/12.pagination.md)
+
+## [13. Live Ecto Forms and Lists](/live_view_studio/docs/13.live_ecto_forms_and_lists.md)
+
+## [14. Live Validations](/live_view_studio/docs/14.live_validations.md)
+
+## [15. Streams](/live_view_studio/docs/15.streams.md)
+
+## [16. Toggling State](/live_view_studio/docs/16.toggling_state.md)
+
+## [17. Live Components](/live_view_studio/docs/17.live_components.md)
+
+## [18. Real-Time Updates](/live_view_studio/docs/18.real_time_updates.md)
+
+## [19. Authenticating LiveViews](/live_view_studio/docs/19.authenticating_live_views.md)
+
+## [20. Live Sessions](/live_view_studio/docs/20.live_sessions.md)
+
+
+
+
+
+
+
+
 
 
 
