@@ -65,7 +65,7 @@ defmodule LiveViewStudioWeb.VolunteersLive do
     {:noreply, stream_insert(socket, :volunteers, volunteer)}
   end
 
-  def handle_info("{:volunteer_created, volunteer}", socket) do
+  def handle_info({:volunteer_created, volunteer}, socket) do
     socket = stream_insert(socket, :volunteers, volunteer, at: 0)
     {:noreply, socket}
   end
