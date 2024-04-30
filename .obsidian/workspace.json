@@ -173,8 +173,8 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
-    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteersLive.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteerFormComponent.beam",
+    "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteersLive.beam",
     "live_view_studio/lib/live_view_studio_web/live/volunteer_form_component.ex",
     "attached/Pasted image 20240429155942.png",
     "live_view_studio/docs/15.streams.md",
