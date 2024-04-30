@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/19.authenticating_live_views.md",
+                "file": "live_view_studio/docs/20.live_sessions.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/19.authenticating_live_views.md",
+                "file": "live_view_studio/docs/20.live_sessions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/19.authenticating_live_views.md",
+                "file": "live_view_studio/docs/20.live_sessions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/19.authenticating_live_views.md"
+                "file": "live_view_studio/docs/20.live_sessions.md"
               }
             }
           }
@@ -173,12 +173,13 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "live_view_studio/docs/19.authenticating_live_views.md",
+    "live_view_studio/docs/20.live_sessions.md",
+    "live_view_studio/README.md",
     "attached/Pasted image 20240430141305.png",
     "attached/Pasted image 20240430140356.png",
     "attached/Pasted image 20240430140220.png",
     "live_view_studio/docs/18.real_time_updates.md",
-    "live_view_studio/docs/19.authenticating_live_views.md",
-    "live_view_studio/README.md",
     "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Inspect.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.IEx.Info.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/consolidated/Elixir.Phoenix.HTML.Safe.beam",
@@ -217,7 +218,6 @@
     "attached/Pasted image 20240426143800.png",
     "live_view_studio/docs/11.sorting.md",
     "live_view_studio/docs/9.function_components.md",
-    "attached/Pasted image 20240426141351.png",
     "live_view_studio/docs/10.live_navigation.md"
   ]
 }

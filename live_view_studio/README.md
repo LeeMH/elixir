@@ -39,6 +39,9 @@
 
 ## [19. Authenticating LiveViews](/live_view_studio/docs/19.authenticating_live_views.md)
 
+## [20. Live Sessions](/live_view_studio/docs/20.live_sessions.md)
+
+
 
 
 
