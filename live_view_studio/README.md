@@ -37,6 +37,9 @@
 
 ## [18. Real-Time Updates](/live_view_studio/docs/18.real_time_updates.md)
 
+## [19. Authenticating LiveViews](/live_view_studio/docs/19.authenticating_live_views.md)
+
+
 
 
 
