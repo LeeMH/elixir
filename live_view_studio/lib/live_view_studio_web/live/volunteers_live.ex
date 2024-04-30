@@ -36,8 +36,6 @@ defmodule LiveViewStudioWeb.VolunteersLive do
     """
   end
 
-  def volunteer_form(assigns) do
-  end
 
   def volunteer(assigns) do
     ~H"""

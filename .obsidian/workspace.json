@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "live_view_studio/docs/17.live_components.md",
+                "file": "live_view_studio/docs/18.real_time_updates.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "live_view_studio/docs/17.live_components.md",
+                "file": "live_view_studio/docs/18.real_time_updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "live_view_studio/docs/17.live_components.md",
+                "file": "live_view_studio/docs/18.real_time_updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "live_view_studio/docs/17.live_components.md"
+                "file": "live_view_studio/docs/18.real_time_updates.md"
               }
             }
           }
@@ -173,12 +173,15 @@
   },
   "active": "9adcadaf4a497ba9",
   "lastOpenFiles": [
+    "attached/Pasted image 20240430113518.png",
+    "attached/Pasted image 20240430112408.png",
+    "live_view_studio/docs/17.live_components.md",
+    "live_view_studio/docs/18.real_time_updates.md",
+    "live_view_studio/README.md",
     "attached/Pasted image 20240430103252.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteerFormComponent.beam",
     "attached/Pasted image 20240430100807.png",
     "live_view_studio/docs/16.toggling_state.md",
-    "live_view_studio/docs/17.live_components.md",
-    "live_view_studio/README.md",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.VolunteersLive.beam",
     "live_view_studio/lib/live_view_studio_web/live/volunteer_form_component.ex",
     "attached/Pasted image 20240429155942.png",
@@ -206,8 +209,6 @@
     "attached/Pasted image 20240426105828.png",
     "attached/Pasted image 20240426105635.png",
     "live_view_studio/docs/1.project_setup.md",
-    "attached/Pasted image 20240425115637.png",
-    "attached/Pasted image 20240425115633.png",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.CustomComponents.beam",
     "live_view_studio/_build/dev/lib/live_view_studio/ebin/Elixir.LiveViewStudioWeb.BoatsLive.beam",
     "live_view_studio/lib/live_view_studio_web/components/custom_components.ex",
@@ -217,7 +218,6 @@
     "servy/docs/10.organizing_code.md",
     "servy/docs/1.create_mix_project.md",
     "live_view_studio/deps/connection/README.md",
-    "live_view_studio/deps/postgrex/CHANGELOG.md",
-    "live_view_studio/deps/websock/README.md"
+    "live_view_studio/deps/postgrex/CHANGELOG.md"
   ]
 }

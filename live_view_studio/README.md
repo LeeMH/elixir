@@ -35,6 +35,9 @@
 
 ## [17. Live Components](/live_view_studio/docs/17.live_components.md)
 
+## [18. Real-Time Updates](/live_view_studio/docs/18.real_time_updates.md)
+
+
 
 
 
