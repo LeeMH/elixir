@@ -33,6 +33,7 @@
 
 ## [16. Toggling State](/live_view_studio/docs/16.toggling_state.md)
 
+## [17. Live Components](/live_view_studio/docs/17.live_components.md)
 
 
 
